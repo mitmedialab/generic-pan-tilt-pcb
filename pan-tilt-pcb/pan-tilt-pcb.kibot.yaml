@@ -11,9 +11,9 @@ global:
   - number: 107
 
 import:
-- file: Elecrow
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/Elecrow
+# - file: Elecrow
+#   definitions:
+#     _KIBOT_MANF_DIR: Manufacturers/Elecrow
 - file: ExportProject
 - file: FusionPCB
   definitions:
@@ -303,19 +303,19 @@ outputs:
   comment: Schematic in PS format
   type: ps_sch_print
   dir: Schematic
-- name: basic_qr_lib_example
-  comment: QR code symbol and footprint example
-  type: qr_lib
-  dir: QR_libs
-  options:
-    qrs:
-    - correction_level: medium
-      name: QR_data
-      pcb_negative: true
-    - correction_level: medium
-      name: QR_kibot
-      text: https://github.com/INTI-CMNB/KiBot/
-    use_sch_dir: false
+# - name: basic_qr_lib_example
+#   comment: QR code symbol and footprint example
+#   type: qr_lib
+#   dir: QR_libs
+#   options:
+#     qrs:
+#     - correction_level: medium
+#       name: QR_data
+#       pcb_negative: true
+#     - correction_level: medium
+#       name: QR_kibot
+#       text: https://github.com/INTI-CMNB/KiBot/
+#     use_sch_dir: false
 - name: report_simple
   comment: Simple design report
   type: report
