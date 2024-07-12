@@ -169,6 +169,10 @@ outputs:
   comment: Schematic in HPGL format
   type: hpgl_sch_print
   dir: Schematic
+- name: basic_pdf_sch_print
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: Schematic
 - name: basic_ibom
   comment: Interactive HTML BoM
   type: ibom
@@ -274,10 +278,6 @@ outputs:
   type: pdf
   dir: Individual_Layers/PDF
   layers: []
-- name: basic_pdf_sch_print
-  comment: Schematic in PDF format
-  type: pdf_sch_print
-  dir: Schematic
 - name: basic_position_ASCII
   comment: Components position for Pick & Place
   type: position
