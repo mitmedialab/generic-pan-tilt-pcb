@@ -28,7 +28,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     # This is a KiCad 5 example, KiCad 6 uses v2_k6
-    - uses: INTI-CMNB/KiBot@v2
+    - uses: INTI-CMNB/KiBot@v2_k8
       with:
         # Required - kibot config file
         config: pan-tilt-pcb/pan-tilt-pcb.kibot.yaml
