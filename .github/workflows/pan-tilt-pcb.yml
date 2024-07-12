@@ -35,7 +35,7 @@ jobs:
         # optional - prefix to output defined in config
         dir: pan-tilt-pcb/Fabrication
         # optional - schematic file
-        schema: 'pan-tilt-pcb/pan-tilt-pcb.sch'
+        schema: 'pan-tilt-pcb/pan-tilt.sch'
         # optional - PCB design file
         board: 'pan-tilt-pcb/pan-tilt-pcb.kicad_pcb'
     - name: Retrieve results
