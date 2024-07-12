@@ -8,14 +8,14 @@ name: "KiCad CI/CD for main board"
 on:
   push:
     paths:
-      - 'pan-tilt-pcb/*.sch'
+      - 'pan-tilt-pcb/*.kicad_sch'
       - 'pan-tilt-pcb/*.kicad_pcb'
       - 'pan-tilt-pcb/*.kibot.yaml'
       - 'pan-tilt-pcb/Makefile'
       - '.github/workflows/pan-tilt-pcb.yml'
   pull_request:
     paths:
-      - 'pan-tilt-pcb/*.sch'
+      - 'pan-tilt-pcb/*.kicad_sch'
       - 'pan-tilt-pcb/*.kicad_pcb'
       - 'pan-tilt-pcb/*.kibot.yaml'
       - 'pan-tilt-pcb/Makefile'
@@ -35,7 +35,7 @@ jobs:
         # optional - prefix to output defined in config
         dir: pan-tilt-pcb/Fabrication
         # optional - schematic file
-        schema: 'pan-tilt-pcb/pan-tilt.sch'
+        schema: 'pan-tilt-pcb/pan-tilt-pcb.kicad_sch'
         # optional - PCB design file
         board: 'pan-tilt-pcb/pan-tilt-pcb.kicad_pcb'
     - name: Retrieve results
