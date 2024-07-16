@@ -1,0 +1,46 @@
+# Originally from
+# https://github.com/INTI-CMNB/kicad-ci-test-spora/blob/a661421dc6fa2c3f5aff21438a360a9419b7d3c0/.github/workflows/spora_main.yml
+
+name: "KiCad CI/CD for generic-pan-tilt-home-sensor-pcb"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    paths:
+      - 'generic-pan-tilt-home-sensor-pcb/*.kicad_sch'
+      - 'generic-pan-tilt-home-sensor-pcb/*.kicad_pcb'
+      - 'generic-pan-tilt-home-sensor-pcb/*.kibot.yaml'
+      - '.github/workflows/generic-pan-tilt-home-sensor-pcb.yml'
+  pull_request:
+    paths:
+      - 'generic-pan-tilt-home-sensor-pcb/*.kicad_sch'
+      - 'generic-pan-tilt-home-sensor-pcb/*.kicad_pcb'
+      - 'generic-pan-tilt-home-sensor-pcb/*.kibot.yaml'
+      - '.github/workflows/generic-pan-tilt-home-sensor-pcb.yml'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    # This is a KiCad 5 example, KiCad 6 uses v2_k6
+    - uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        # Required - kibot config file
+        config: generic-pan-tilt-home-sensor-pcb/generic-pan-tilt-home-sensor-pcb.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: generic-pan-tilt-home-sensor-pcb/Fabrication
+        # optional - schematic file
+        schema: 'generic-pan-tilt-home-sensor-pcb/generic-pan-tilt-home-sensor-pcb.kicad_sch'
+        # optional - PCB design file
+        board: 'generic-pan-tilt-home-sensor-pcb/generic-pan-tilt-home-sensor-pcb.kicad_pcb'
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: Fabrication_generic-pan-tilt-home-sensor-pcb
+        path: |
+          generic-pan-tilt-home-sensor-pcb/Fabrication/
+        if-no-files-found: warn
