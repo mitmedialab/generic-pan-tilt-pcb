@@ -408,10 +408,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin input clock
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "SCL/SPC"
+					(name "SPC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -425,6 +425,7 @@
 							)
 						)
 					)
+					(alternate "SCL" input clock)
 				)
 				(pin power_in line
 					(at 0 -15.24 90)
@@ -444,10 +445,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "SDA/SDI/SDO"
+					(name "SDI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -461,8 +462,10 @@
 							)
 						)
 					)
+					(alternate "SD0" output line)
+					(alternate "SDA" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "SDO"
@@ -759,6 +762,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f92fa869-a215-47a2-881a-02573d38b310")
+	)
+	(no_connect
+		(at 134.62 81.28)
+		(uuid "d340adc7-aa52-4fc5-a4c5-a59ccb7bce52")
+	)
+	(no_connect
+		(at 134.62 83.82)
+		(uuid "e12685b4-1ce6-4f51-8948-8e314bb23741")
 	)
 	(wire
 		(pts
@@ -1342,6 +1353,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Motion:LIS3DH")
+		(at 147.32 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86718a72-b3ae-4441-865c-2eff0360276a")
+		(property "Reference" "U6"
+			(at 149.5141 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LIS3DH"
+			(at 149.5141 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00274221.pdf"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Address" "0x18"
+			(at 149.606 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4"
+			(uuid "bdf01a1f-1599-402e-9562-438a8f6a208b")
+			(alternate "SCL")
+		)
+		(pin "1"
+			(uuid "839ed70d-fb83-44f5-ae9c-1de2ecb62f95")
+		)
+		(pin "10"
+			(uuid "72aa87e9-ceb0-4f03-8f92-ef85fb38c645")
+		)
+		(pin "11"
+			(uuid "3b5c24f7-e840-4364-9a87-10a34e87d6cb")
+		)
+		(pin "12"
+			(uuid "67fbdc93-c756-4e77-b7f3-45c41ee786aa")
+		)
+		(pin "13"
+			(uuid "68e7738d-b749-475f-95df-7c9b9d7d69c2")
+		)
+		(pin "14"
+			(uuid "1e2bf916-9802-42a3-80e8-2bfc50bf1e9d")
+		)
+		(pin "15"
+			(uuid "119cf3f2-60fc-40ab-abee-f8d1675c03df")
+		)
+		(pin "16"
+			(uuid "18e9364b-5596-4926-8413-5f9567668963")
+		)
+		(pin "8"
+			(uuid "6ea86c4c-14df-4814-8194-8cc8fe49f078")
+		)
+		(pin "9"
+			(uuid "9610e795-54c0-4654-a6af-6d5993d9de98")
+		)
+		(pin "2"
+			(uuid "f1e15245-8af4-4d96-9044-45c65e7f3bee")
+		)
+		(pin "5"
+			(uuid "f8d2cab9-b439-467b-835e-84672ebc2470")
+		)
+		(pin "6"
+			(uuid "c9a9dc32-b121-4c26-969c-7d1f58470fa7")
+			(alternate "SDA")
+		)
+		(pin "7"
+			(uuid "bd081067-2fc0-4435-9900-573f69e0dbc2")
+			(alternate "SA0")
+		)
+		(pin "3"
+			(uuid "8162151f-3fef-4c58-972a-78f0ba494c7e")
+		)
+		(instances
+			(project ""
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 96.52 0)
 		(unit 1)
@@ -1600,119 +1735,6 @@
 			(project "pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Motion:LIS3DH")
-		(at 147.32 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcc047e0-d343-4164-8646-38a79aae1347")
-		(property "Reference" "U6"
-			(at 149.5141 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LIS3DH"
-			(at 149.5141 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00274221.pdf"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16"
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "c68d7c04-489c-4765-8071-7e1c5cb39109")
-		)
-		(pin "2"
-			(uuid "aaae0f93-2ff9-4530-8cb4-13659fdab44d")
-		)
-		(pin "3"
-			(uuid "291e1e09-5c7b-48a6-8641-463d10e6f4ee")
-		)
-		(pin "6"
-			(uuid "b53e965b-75d5-4150-bf60-25e1c4870549")
-		)
-		(pin "7"
-			(uuid "41846464-9919-4912-afac-5654557e8cf9")
-			(alternate "SA0")
-		)
-		(pin "16"
-			(uuid "4a85f224-7375-4c22-b0d3-d96ba386647c")
-		)
-		(pin "11"
-			(uuid "771d5f9c-ae6b-4f34-be15-c4aeb40063a7")
-		)
-		(pin "9"
-			(uuid "d41c10f2-e913-48f4-8127-b2475018728a")
-		)
-		(pin "14"
-			(uuid "b0aa9058-642b-4cc5-b4dd-3c160535a5b9")
-		)
-		(pin "1"
-			(uuid "6982e079-45a8-4fd2-b6fd-ff049f32636a")
-		)
-		(pin "8"
-			(uuid "c182f9eb-a4e3-4024-a578-15feb02b799f")
-		)
-		(pin "13"
-			(uuid "33cceee7-9a15-4bfa-b89a-15b26e801dfd")
-		)
-		(pin "12"
-			(uuid "92f4b591-d4a2-422d-8ef9-e784e714f701")
-		)
-		(pin "4"
-			(uuid "8dba2a71-70d2-4620-8d7b-015a414a44fe")
-		)
-		(pin "15"
-			(uuid "ac2a46c2-c799-42c4-8006-6db0523f5f14")
-		)
-		(pin "10"
-			(uuid "f2aecfb1-65b6-43c1-b5eb-62a10857be74")
-		)
-		(instances
-			(project ""
-				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
-					(reference "U6")
 					(unit 1)
 				)
 			)
