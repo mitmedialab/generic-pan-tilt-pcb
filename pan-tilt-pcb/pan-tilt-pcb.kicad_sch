@@ -10093,7 +10093,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "55ec4a5b-72e0-465a-b2bf-185865323fab")
-		(property "Sheetname" "pan-tilt_rp2040"
+		(property "Sheetname" "pan-tilt-pcb_rp2040"
 			(at 29.21 50.0884 0)
 			(effects
 				(font
@@ -10102,7 +10102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pan-tilt_rp2040.kicad_sch"
+		(property "Sheetfile" "pan-tilt-pcb_rp2040.kicad_sch"
 			(at 29.21 114.8846 0)
 			(effects
 				(font
@@ -10451,7 +10451,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "58e8aa21-838b-4e25-b5a5-dc2029ad2cce")
-		(property "Sheetname" "pan-tilt_hid"
+		(property "Sheetname" "pan-tilt-pcb_hid"
 			(at 158.75 146.6084 0)
 			(effects
 				(font
@@ -10460,7 +10460,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pan-tilt_hid.kicad_sch"
+		(property "Sheetfile" "pan-tilt-pcb_hid.kicad_sch"
 			(at 158.75 152.9846 0)
 			(effects
 				(font
@@ -10509,7 +10509,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "7805edd4-fec1-461c-8c6e-1ac5d9a803a6")
-		(property "Sheetname" "pan-tilt_accelerometer"
+		(property "Sheetname" "pan-tilt-pcb_accelerometer"
 			(at 158.75 160.5784 0)
 			(effects
 				(font
@@ -10518,7 +10518,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pan-tilt_accelerometer.kicad_sch"
+		(property "Sheetfile" "pan-tilt-pcb_accelerometer.kicad_sch"
 			(at 158.75 166.9546 0)
 			(effects
 				(font
@@ -10567,7 +10567,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "98335103-cef0-473f-a7b3-d62ebdf0389c")
-		(property "Sheetname" "pan-tilt_rs485"
+		(property "Sheetname" "pan-tilt-pcb_rs485"
 			(at 83.82 184.7084 0)
 			(effects
 				(font
@@ -10576,7 +10576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pan-tilt_rs485.kicad_sch"
+		(property "Sheetfile" "pan-tilt-pcb_rs485.kicad_sch"
 			(at 83.82 196.1646 0)
 			(effects
 				(font
@@ -10675,7 +10675,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b803bbf3-111c-4185-8877-deb215c96d42")
-		(property "Sheetname" "pan-tilt_24v_to_3.3v"
+		(property "Sheetname" "pan-tilt-pcb_24v_to_3.3v"
 			(at 87.63 22.1484 0)
 			(effects
 				(font
@@ -10684,7 +10684,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pan-tilt_24v_to_3.3v.kicad_sch"
+		(property "Sheetfile" "pan-tilt-pcb_24v_to_3.3v.kicad_sch"
 			(at 87.63 28.5246 0)
 			(effects
 				(font
@@ -10733,7 +10733,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e2b5314f-806a-4f39-8c59-debbd2a2bba5")
-		(property "Sheetname" "pan-tilt_dmx-expansion"
+		(property "Sheetname" "pan-tilt-pcb_dmx-expansion"
 			(at 29.21 168.1984 0)
 			(effects
 				(font
@@ -10742,7 +10742,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pan-tilt_dmx-expansion.kicad_sch"
+		(property "Sheetfile" "pan-tilt-pcb_dmx-expansion.kicad_sch"
 			(at 29.21 196.1646 0)
 			(effects
 				(font
