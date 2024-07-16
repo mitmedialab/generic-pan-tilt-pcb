@@ -1,25 +1,23 @@
 # Originally from
 # https://github.com/INTI-CMNB/kicad-ci-test-spora/blob/a661421dc6fa2c3f5aff21438a360a9419b7d3c0/.github/workflows/spora_main.yml
 
-name: "KiCad CI/CD for main board"
+name: "KiCad CI/CD for generic-pan-tilt-pcb"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
     paths:
-      - 'pan-tilt-pcb/*.kicad_sch'
-      - 'pan-tilt-pcb/*.kicad_pcb'
-      - 'pan-tilt-pcb/*.kibot.yaml'
-      - 'pan-tilt-pcb/Makefile'
-      - '.github/workflows/pan-tilt-pcb.yml'
+      - 'generic-pan-tilt-pcb/*.kicad_sch'
+      - 'generic-pan-tilt-pcb/*.kicad_pcb'
+      - 'generic-pan-tilt-pcb/*.kibot.yaml'
+      - '.github/workflows/generic-pan-tilt-pcb.yml'
   pull_request:
     paths:
-      - 'pan-tilt-pcb/*.kicad_sch'
-      - 'pan-tilt-pcb/*.kicad_pcb'
-      - 'pan-tilt-pcb/*.kibot.yaml'
-      - 'pan-tilt-pcb/Makefile'
-      - '.github/workflows/pan-tilt-pcb.yml'
+      - 'generic-pan-tilt-pcb/*.kicad_sch'
+      - 'generic-pan-tilt-pcb/*.kicad_pcb'
+      - 'generic-pan-tilt-pcb/*.kibot.yaml'
+      - '.github/workflows/generic-pan-tilt-pcb.yml'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -31,18 +29,18 @@ jobs:
     - uses: INTI-CMNB/KiBot@v2_k8
       with:
         # Required - kibot config file
-        config: pan-tilt-pcb/pan-tilt-pcb.kibot.yaml
+        config: generic-pan-tilt-pcb/generic-pan-tilt-pcb.kibot.yaml
         # optional - prefix to output defined in config
-        dir: pan-tilt-pcb/Fabrication
+        dir: generic-pan-tilt-pcb/Fabrication
         # optional - schematic file
-        schema: 'pan-tilt-pcb/pan-tilt-pcb.kicad_sch'
+        schema: 'generic-pan-tilt-pcb/generic-pan-tilt-pcb.kicad_sch'
         # optional - PCB design file
-        board: 'pan-tilt-pcb/pan-tilt-pcb.kicad_pcb'
+        board: 'generic-pan-tilt-pcb/generic-pan-tilt-pcb.kicad_pcb'
     - name: Retrieve results
       if: ${{ always() }}
       uses: actions/upload-artifact@v3
       with:
         name: Fabrication_Main
         path: |
-          pan-tilt-pcb/Fabrication/
+          generic-pan-tilt-pcb/Fabrication/
         if-no-files-found: warn

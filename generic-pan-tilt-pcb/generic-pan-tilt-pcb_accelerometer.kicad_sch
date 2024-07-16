@@ -5,7 +5,7 @@
 	(uuid "c18a7577-c06f-4e66-90dc-da3d87290afb")
 	(paper "USLetter")
 	(title_block
-		(title "Pan Tilt PCB: Accelerometer")
+		(title "Generic Pan Tilt PCB: Accelerometer")
 		(date "2024-07-10")
 		(company "Responsive Environments, MIT Media Lab")
 		(comment 1 "Perry Naseck")
@@ -1076,7 +1076,7 @@
 			(uuid "63ee55d0-168a-4deb-8b2e-65bdcbc27e61")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "C27")
 					(unit 1)
@@ -1146,7 +1146,7 @@
 			(uuid "4d9530b6-2b35-4011-986b-58eeaa95c290")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "C28")
 					(unit 1)
@@ -1212,7 +1212,7 @@
 			(uuid "97956e00-113e-4e17-ae70-b7de93809caa")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR077")
 					(unit 1)
@@ -1278,7 +1278,7 @@
 			(uuid "dae5cf52-8b15-4038-9d28-d7971cd5abb0")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR073")
 					(unit 1)
@@ -1344,7 +1344,7 @@
 			(uuid "eb63b123-c623-4518-94ca-b0d0ab042f70")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR072")
 					(unit 1)
@@ -1468,7 +1468,7 @@
 			(uuid "8162151f-3fef-4c58-972a-78f0ba494c7e")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "U6")
 					(unit 1)
@@ -1534,7 +1534,7 @@
 			(uuid "bca935a7-99f2-4741-b1b7-7174a2719abf")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR071")
 					(unit 1)
@@ -1600,7 +1600,7 @@
 			(uuid "21b6ac87-4795-4bb2-a34c-840821b532ec")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR074")
 					(unit 1)
@@ -1666,7 +1666,7 @@
 			(uuid "82a87ab4-10b3-4e9b-92c4-a694ad4e56b9")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR076")
 					(unit 1)
@@ -1732,7 +1732,7 @@
 			(uuid "bee1ecf2-58a3-408c-b51b-07e08b1b8f76")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR075")
 					(unit 1)
@@ -1798,7 +1798,7 @@
 			(uuid "7df762bf-4244-4603-883c-6e39f742b4d6")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/7805edd4-fec1-461c-8c6e-1ac5d9a803a6"
 					(reference "#PWR070")
 					(unit 1)

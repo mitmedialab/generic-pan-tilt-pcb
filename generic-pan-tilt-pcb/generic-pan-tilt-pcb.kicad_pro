@@ -237,11 +237,11 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "pan-tilt"
+      "generic-pan-tilt-pcb"
     ]
   },
   "meta": {
-    "filename": "pan-tilt-pcb.kicad_pro",
+    "filename": "generic-pan-tilt-pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -399,27 +399,27 @@
     ],
     [
       "55ec4a5b-72e0-465a-b2bf-185865323fab",
-      "pan-tilt-pcb_rp2040"
+      "generic-pan-tilt-pcb_rp2040"
     ],
     [
       "b803bbf3-111c-4185-8877-deb215c96d42",
-      "pan-tilt-pcb_24v_to_3.3v"
+      "generic-pan-tilt-pcb_24v_to_3.3v"
     ],
     [
       "98335103-cef0-473f-a7b3-d62ebdf0389c",
-      "pan-tilt-pcb_rs485"
+      "generic-pan-tilt-pcb_rs485"
     ],
     [
       "e2b5314f-806a-4f39-8c59-debbd2a2bba5",
-      "pan-tilt-pcb_dmx-expansion"
+      "generic-pan-tilt-pcb_dmx-expansion"
     ],
     [
       "58e8aa21-838b-4e25-b5a5-dc2029ad2cce",
-      "pan-tilt-pcb_hid"
+      "generic-pan-tilt-pcb_hid"
     ],
     [
       "7805edd4-fec1-461c-8c6e-1ac5d9a803a6",
-      "pan-tilt-pcb_accelerometer"
+      "generic-pan-tilt-pcb_accelerometer"
     ]
   ],
   "text_variables": {}

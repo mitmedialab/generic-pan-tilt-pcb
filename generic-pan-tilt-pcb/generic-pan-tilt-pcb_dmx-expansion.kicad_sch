@@ -5,7 +5,7 @@
 	(uuid "1eea6b4f-2d76-49db-bdb7-a24501b2356a")
 	(paper "USLetter")
 	(title_block
-		(title "Pan Tilt PCB: DMX Port Expansion")
+		(title "Generic Pan Tilt PCB: DMX Port Expansion")
 		(date "2024-07-10")
 		(company "Responsive Environments, MIT Media Lab")
 		(comment 1 "Perry Naseck")
@@ -1243,7 +1243,7 @@
 			(uuid "06a31c94-8841-4b2e-a3ef-b1826f14d41b")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
 					(reference "#PWR060")
 					(unit 1)
@@ -1322,7 +1322,7 @@
 			(uuid "1905c637-49c7-46c1-877f-521b6b412c1c")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
 					(reference "J13")
 					(unit 1)
@@ -1388,7 +1388,7 @@
 			(uuid "399fea39-d354-49db-a89f-e3fe32278fea")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
 					(reference "#PWR061")
 					(unit 1)
@@ -1476,7 +1476,7 @@
 			(uuid "24faffae-0f48-4b3d-b295-0da2c169261d")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
 					(reference "J12")
 					(unit 1)
@@ -1542,7 +1542,7 @@
 			(uuid "f79ace3e-8588-4331-86d0-bf164a179b0f")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
 					(reference "#PWR063")
 					(unit 1)
@@ -1608,7 +1608,7 @@
 			(uuid "52e7341c-5eb4-42e7-bfea-b14b5f785a32")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
 					(reference "#PWR062")
 					(unit 1)
@@ -1696,7 +1696,7 @@
 			(uuid "0602c64e-ff47-408d-8aca-692654f18fa8")
 		)
 		(instances
-			(project "pan-tilt-pcb"
+			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
 					(reference "J11")
 					(unit 1)

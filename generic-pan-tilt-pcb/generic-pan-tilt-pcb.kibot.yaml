@@ -194,7 +194,7 @@ outputs:
   type: kikit_present
   dir: Presentation
   options:
-    description: '# Presentation for pan-tilt-pcb
+    description: '# Presentation for generic-pan-tilt-pcb
 
       This is an automatically generated presentation page'
     boards:
