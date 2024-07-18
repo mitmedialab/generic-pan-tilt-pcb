@@ -1195,7 +1195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e998cfa-8685-4d5c-a371-970d8033fa8f")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -1245,7 +1245,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1258,7 +1258,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "656bc434-0372-4cfe-ac31-699df090318c")
 		(property "Reference" "J13"
@@ -1279,7 +1279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 180.34 92.71 0)
 			(effects
 				(font
@@ -1340,7 +1340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a581c90-42de-46fe-933a-5f57c586475c")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -1390,7 +1390,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1403,7 +1403,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9bbec541-fef5-426f-a27f-7455d743a143")
 		(property "Reference" "J12"
@@ -1424,7 +1424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b991b455-2ec9-4d9e-a7a1-6d01f5109a9b")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1560,7 +1560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c193a4c4-021d-44f2-bfef-2db9ed0e2005")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -1610,7 +1610,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/e2b5314f-806a-4f39-8c59-debbd2a2bba5"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1623,7 +1623,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7c927e4-fd47-45ae-a45b-0d9affc17f93")
 		(property "Reference" "J11"
@@ -1644,7 +1644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 129.54 74.93 0)
 			(effects
 				(font

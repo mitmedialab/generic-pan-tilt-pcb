@@ -4370,7 +4370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01c6cfa5-feff-4891-acef-7f019eae5aa2")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 231.14 50.8 90)
 			(effects
 				(font
@@ -4386,7 +4386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 231.394 56.134 90)
 			(effects
 				(font
@@ -4422,7 +4422,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bcfa432-bf69-4bac-951a-d6962c24e6ff")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 74.93 69.8499 0)
 			(effects
 				(font
@@ -4456,7 +4456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.406 71.374 90)
 			(effects
 				(font
@@ -4492,7 +4492,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4508,7 +4508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10d11065-d6ba-4c05-a205-c9e302945de8")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR068"
 			(at 214.63 129.54 0)
 			(effects
 				(font
@@ -4558,7 +4558,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4574,7 +4574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "149718ca-9d92-4e7f-b8dc-d013668ca072")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR066"
 			(at 110.49 118.11 0)
 			(effects
 				(font
@@ -4624,7 +4624,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4647,7 +4647,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x12"
+		(property "Value" "219-12LPST"
 			(at 204.47 85.09 0)
 			(effects
 				(font
@@ -4655,7 +4655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6929f091-79fe-4e64-86a9-0debda643c34")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -4982,7 +4982,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4998,7 +4998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8174516d-eb4e-4b70-a0da-935d86dacf54")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 54.61 69.8499 0)
 			(effects
 				(font
@@ -5016,7 +5016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.086 71.374 90)
 			(effects
 				(font
@@ -5052,7 +5052,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5068,7 +5068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2bef0ec-40eb-484e-9200-457fd60a5027")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 222.25 48.26 90)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 221.996 55.626 90)
 			(effects
 				(font
@@ -5120,7 +5120,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5136,7 +5136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a69d1265-83dd-46e6-9916-c082063de05a")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 194.31 49.53 0)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5202,7 +5202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab40dae8-a511-4dd1-90fd-a0d88df6ce53")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 52.07 63.5 0)
 			(effects
 				(font
@@ -5252,7 +5252,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5350,7 +5350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb6697e4-bde8-46ae-8200-8b3a5d680eab")
-		(property "Reference" "C26"
+		(property "Reference" "C28"
 			(at 92.71 45.7199 0)
 			(effects
 				(font
@@ -5368,7 +5368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.8652 50.8 0)
 			(effects
 				(font
@@ -5404,7 +5404,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "C26")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5420,7 +5420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8cbf191-5820-4fe0-9407-dbf2190d60c2")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 64.77 69.8499 0)
 			(effects
 				(font
@@ -5438,7 +5438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.246 71.374 90)
 			(effects
 				(font
@@ -5474,7 +5474,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5490,7 +5490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd763ae1-d714-4538-82bc-869df2c2175a")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -5540,7 +5540,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2dd199a-1939-402e-9515-e75a1af27f37")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 240.03 53.34 90)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.284 58.674 90)
 			(effects
 				(font
@@ -5608,7 +5608,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)

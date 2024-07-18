@@ -2311,7 +2311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a47cf00-50ee-45ba-b31a-a4990e4d0cdf")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 121.92 48.26 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2377,7 +2377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ed86381-45b6-4ceb-9e5a-8aa8247e5c48")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 171.45 76.1999 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 81.28 0)
 			(effects
 				(font
@@ -2431,7 +2431,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2447,7 +2447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "487bf9c2-8fbd-4c36-b844-5641f045c8e4")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 121.92 33.02 0)
 			(effects
 				(font
@@ -2497,7 +2497,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2513,7 +2513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53c510be-ec88-45b4-bad3-ec3dae6f2c4d")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 125.73 76.1999 0)
 			(effects
 				(font
@@ -2531,7 +2531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 122.8852 81.28 0)
 			(effects
 				(font
@@ -2567,7 +2567,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7686c396-5a8a-4c8a-b40d-fec2529563e7")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -2633,7 +2633,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2775,7 +2775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT"
+		(property "Footprint" "generic-pan-tilt-pcb:Converter_DCDC_Murata_CMExxxxS3C_THT"
 			(at 121.92 40.64 0)
 			(effects
 				(font
@@ -2785,7 +2785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/1/kdc_cme-2941013.pdf"
+		(property "Datasheet" "https://power.murata.com/pub/data/power/ncl/kdc_cme.pdf"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -2835,7 +2835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a075b3b6-3646-44ba-9868-cef0f6b0fe84")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 177.8 35.5599 0)
 			(effects
 				(font
@@ -2853,7 +2853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 40.64 0)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2905,7 +2905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ce376f-d41c-410a-ba3d-2272189b48e5")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG05"
 			(at 173.99 27.305 0)
 			(effects
 				(font
@@ -2955,7 +2955,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "#FLG06")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -2971,7 +2971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c52c58bd-a529-4612-9976-80f1944985d6")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 190.5 76.1999 0)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 81.28 0)
 			(effects
 				(font
@@ -3025,7 +3025,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cccf6f1f-8db2-4d2d-96e9-4f575458f0f6")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 125.73 35.5599 0)
 			(effects
 				(font
@@ -3059,7 +3059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 122.8852 40.64 0)
 			(effects
 				(font
@@ -3095,7 +3095,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 166.37 31.75 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd23516e-3eb8-4b63-bb0e-55537265cdde")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 137.16 48.26 0)
 			(effects
 				(font
@@ -3229,7 +3229,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e127f19d-9169-4281-a2cf-de72fe135244")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 121.92 90.17 0)
 			(effects
 				(font
@@ -3295,7 +3295,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3311,7 +3311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbf6e854-fcfc-43b5-bede-bf1ed1d3a7f8")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 139.7 139.7 0)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)

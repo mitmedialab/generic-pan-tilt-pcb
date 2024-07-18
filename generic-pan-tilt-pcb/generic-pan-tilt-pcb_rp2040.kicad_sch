@@ -1629,20 +1629,20 @@
 				)
 			)
 		)
-		(symbol "Memory_Flash:W25Q32JVSS"
+		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -6.35 11.43 0)
+				(at -8.89 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "W25Q32JVSS"
-				(at 7.62 11.43 0)
+			(property "Value" "W25Q128JVS"
+				(at 7.62 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1658,7 +1658,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1667,7 +1667,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1676,7 +1676,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "flash memory SPI"
+			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1694,7 +1694,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q32JVSS_0_1"
+			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -10.16)
@@ -1707,7 +1707,7 @@
 					)
 				)
 			)
-			(symbol "W25Q32JVSS_1_1"
+			(symbol "W25Q128JVS_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "035c21fb-51d9-4e0a-985b-32eb7a91a466")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 224.79 121.92 0)
 			(effects
 				(font
@@ -4433,7 +4433,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4449,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e7c3be-f300-48d9-8383-5d7bd2e52ea9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 241.3 50.8 0)
 			(effects
 				(font
@@ -4499,7 +4499,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4515,7 +4515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17240230-f617-463a-9901-c1e748106aec")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 93.98 168.91 0)
 			(effects
 				(font
@@ -4565,7 +4565,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f759dcb-cf66-4d1b-9bff-df39b293c846")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -4631,7 +4631,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4647,7 +4647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ffa0ae8-ee26-4c10-aa5d-25fee1815ec3")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 222.25 35.56 0)
 			(effects
 				(font
@@ -4697,7 +4697,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4728,7 +4728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.624 85.344 90)
 			(effects
 				(font
@@ -4779,7 +4779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "285eab90-8788-4f80-93e1-a2e07f9c1840")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 59.69 35.56 0)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4863,7 +4863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.8052 41.91 0)
 			(effects
 				(font
@@ -4931,7 +4931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.624 82.804 90)
 			(effects
 				(font
@@ -5001,7 +5001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.056 113.284 90)
 			(effects
 				(font
@@ -5288,7 +5288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39d9d042-aa5a-4eac-a8d1-45b7c5b31a6c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -5338,7 +5338,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5370,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.83 120.9548 0)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f53afc8-eabb-4f7d-aeb7-d216efd6d589")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 52.07 134.62 0)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40d1c5fb-176e-4508-a76a-26554b7f8ef6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 242.57 105.41 0)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "430593a7-74f7-434a-a6da-5eaa6b417eb8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 43.18 35.56 0)
 			(effects
 				(font
@@ -5603,7 +5603,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5619,7 +5619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "440ce5d2-c505-430b-ad73-1aff10ed10d5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -5669,7 +5669,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5703,7 +5703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 60.6552 41.91 0)
 			(effects
 				(font
@@ -5755,7 +5755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "543e4d46-5e61-4a78-94bb-ffea447903e4")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 59.69 50.8 0)
 			(effects
 				(font
@@ -5805,7 +5805,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5837,7 +5837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.484 131.064 90)
 			(effects
 				(font
@@ -5907,7 +5907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 113.03 0)
 			(effects
 				(font
@@ -5959,7 +5959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60f4f12f-27a5-4d10-a95f-ddb400dea8d3")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 195.58 67.31 90)
 			(effects
 				(font
@@ -5975,7 +5975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.834 72.644 90)
 			(effects
 				(font
@@ -6011,7 +6011,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6027,7 +6027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "621dae4e-043d-4799-af5a-5416982e818e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -6077,7 +6077,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6111,7 +6111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.1452 41.91 0)
 			(effects
 				(font
@@ -6163,7 +6163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9c527c-b07a-421d-866f-45d79615c8cb")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -6213,7 +6213,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6229,7 +6229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72cda49a-4e3c-413c-8f23-5c33da2861df")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 241.3 35.56 0)
 			(effects
 				(font
@@ -6279,7 +6279,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6295,7 +6295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7630d15d-c98c-4250-9422-d3755a45b50b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR041"
 			(at 204.47 73.66 0)
 			(effects
 				(font
@@ -6345,7 +6345,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR078")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 41.91 0)
 			(effects
 				(font
@@ -6449,7 +6449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 41.91 0)
 			(effects
 				(font
@@ -6501,7 +6501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e46a12-81e4-4e1d-8019-0c3b57a69f21")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 203.2 35.56 0)
 			(effects
 				(font
@@ -6551,7 +6551,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR041")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6585,7 +6585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 41.91 0)
 			(effects
 				(font
@@ -6655,7 +6655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.246 71.374 90)
 			(effects
 				(font
@@ -6725,7 +6725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 41.91 0)
 			(effects
 				(font
@@ -6777,7 +6777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cab0831-96db-4b1d-b12d-4ffa513b8ff3")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -6827,7 +6827,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6858,7 +6858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.83 131.1148 0)
 			(effects
 				(font
@@ -6901,7 +6901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q32JVSS")
+		(lib_id "Memory_Flash:W25Q128JVS")
 		(at 210.82 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6919,7 +6919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q32JVSS"
+		(property "Value" "W25Q128JVS"
 			(at 219.71 126.9999 0)
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 210.82 125.73 0)
 			(effects
 				(font
@@ -6946,7 +6946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 			(at 210.82 125.73 0)
 			(effects
 				(font
@@ -7016,7 +7016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 183.8452 41.91 0)
 			(effects
 				(font
@@ -7068,7 +7068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa798874-bc97-49b9-8687-05edf6e33c5a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 242.57 73.66 0)
 			(effects
 				(font
@@ -7118,7 +7118,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7149,7 +7149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 46.99 127 0)
 			(effects
 				(font
@@ -7207,7 +7207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aedcc0e2-d4a4-46e9-9f09-39ead814be2b")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 233.68 77.47 90)
 			(effects
 				(font
@@ -7223,7 +7223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 233.934 82.804 90)
 			(effects
 				(font
@@ -7259,7 +7259,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7275,7 +7275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1fa9561-1613-4be0-90ff-99bcd943faef")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 210.82 147.32 0)
 			(effects
 				(font
@@ -7325,7 +7325,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7341,7 +7341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb00295d-a272-4d19-89a3-e4fd7c55b87d")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 233.68 67.31 90)
 			(effects
 				(font
@@ -7357,7 +7357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 233.934 72.644 90)
 			(effects
 				(font
@@ -7393,7 +7393,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7409,7 +7409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be179c74-8739-4bc5-9699-16e2434651c4")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 203.2 50.8 0)
 			(effects
 				(font
@@ -7459,7 +7459,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7475,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8e5791-2ccb-4f09-bcd7-5d3132c19bd6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 41.91 134.62 0)
 			(effects
 				(font
@@ -7525,7 +7525,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7558,7 +7558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 41.91 0)
 			(effects
 				(font
@@ -7610,7 +7610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfd105f8-4a15-4c54-bb6f-0498e112daf8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 182.88 50.8 0)
 			(effects
 				(font
@@ -7660,7 +7660,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9797309-8c3c-42c8-bcbb-60631f554e0b")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 166.37 50.8 0)
 			(effects
 				(font
@@ -7726,7 +7726,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7760,7 +7760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.3152 41.91 0)
 			(effects
 				(font
@@ -7830,7 +7830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.2152 41.91 0)
 			(effects
 				(font
@@ -7882,7 +7882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2a70f91-e101-4572-8512-0db4b7132876")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 67.31 160.02 0)
 			(effects
 				(font
@@ -7932,7 +7932,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7947,7 +7947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4d925b2-dd11-48f6-b24a-6d58b33ff212")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 62.23 69.85 0)
 			(effects
 				(font
@@ -7997,7 +7997,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8013,7 +8013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6046cd4-2bb6-4b29-8afe-4049a51ef4f7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 76.2 50.8 0)
 			(effects
 				(font
@@ -8063,7 +8063,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8097,7 +8097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.3352 41.91 0)
 			(effects
 				(font
@@ -8149,7 +8149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd585cec-7d7b-45f4-af06-6a92ca885c02")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 25.4 142.24 0)
 			(effects
 				(font
@@ -8199,7 +8199,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8215,7 +8215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdfc1141-93d9-47d0-ab94-e7318c392eef")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 182.88 35.56 0)
 			(effects
 				(font
@@ -8265,7 +8265,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8281,7 +8281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe7e6168-e0e2-4c8c-9f7a-fc0b4fe4120e")
-		(property "Reference" "R20"
+		(property "Reference" "R12"
 			(at 195.58 77.47 90)
 			(effects
 				(font
@@ -8297,7 +8297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.834 82.804 90)
 			(effects
 				(font
@@ -8333,7 +8333,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "R20")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8367,7 +8367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 243.5352 113.03 0)
 			(effects
 				(font
@@ -8419,7 +8419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff721439-94d7-4b1a-9e1d-d50ef24e73e2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 100.33 50.8 0)
 			(effects
 				(font
@@ -8469,7 +8469,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
