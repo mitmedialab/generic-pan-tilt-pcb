@@ -3852,6 +3852,17 @@
 		)
 		(uuid "2be425eb-c4fb-4227-964b-9271f29ad112")
 	)
+	(label "USB_UNTERMINATED_D+"
+		(at 43.18 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f7f5aeb-4bc7-4615-b001-0a75b3d7c148")
+	)
 	(label "QSPI_SD2"
 		(at 67.31 104.14 180)
 		(fields_autoplaced yes)
@@ -3873,6 +3884,17 @@
 			(justify right bottom)
 		)
 		(uuid "89208c9d-5abf-4442-8410-c6c934577b73")
+	)
+	(label "USB_UNTERMINATED_D-"
+		(at 43.18 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9614db88-b639-4c68-8eff-026c0a284ac7")
 	)
 	(label "QSPI_CLK"
 		(at 199.39 120.65 180)

@@ -1708,7 +1708,7 @@
 		(uuid "6d3b78a5-2198-40e9-8df6-46b724947923")
 	)
 	(junction
-		(at 173.99 31.75)
+		(at 194.31 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89e7f8db-0deb-4dae-92ea-0f2cb1ae5c15")
@@ -1789,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 41.91) (xy 173.99 40.64)
+			(xy 194.31 41.91) (xy 194.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1839,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 31.75) (xy 158.75 31.75)
+			(xy 182.88 31.75) (xy 158.75 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 29.21) (xy 173.99 31.75)
+			(xy 194.31 29.21) (xy 194.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 31.75) (xy 173.99 31.75)
+			(xy 198.12 31.75) (xy 194.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 33.02) (xy 173.99 31.75)
+			(xy 194.31 33.02) (xy 194.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2109,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 31.75) (xy 170.18 31.75)
+			(xy 194.31 31.75) (xy 190.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2148,7 +2148,7 @@
 		(uuid "f7509246-860a-493b-ae76-2e047e06864c")
 	)
 	(label "+3V3_ISO"
-		(at 177.8 31.75 0)
+		(at 198.12 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2157,6 +2157,17 @@
 			(justify left bottom)
 		)
 		(uuid "28658787-16dc-4c9d-9859-bd396eb08e4b")
+	)
+	(label "+3V3_ISO_UNFILTERED"
+		(at 160.02 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bd2d4e7-01d2-41ad-8087-1bfde2bd8cf1")
 	)
 	(label "+3V3_ISO"
 		(at 186.69 69.85 90)
@@ -2171,7 +2182,7 @@
 	)
 	(hierarchical_label "RS485_GND"
 		(shape input)
-		(at 173.99 41.91 270)
+		(at 194.31 41.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2827,7 +2838,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.99 36.83 0)
+		(at 194.31 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2836,7 +2847,7 @@
 		(fields_autoplaced yes)
 		(uuid "a075b3b6-3646-44ba-9868-cef0f6b0fe84")
 		(property "Reference" "C26"
-			(at 177.8 35.5599 0)
+			(at 198.12 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2856,7 @@
 			)
 		)
 		(property "Value" "4.7μF 10V"
-			(at 177.8 38.0999 0)
+			(at 198.12 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 174.9552 40.64 0)
+			(at 195.2752 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 36.83 0)
+			(at 194.31 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2883,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 173.99 36.83 0)
+			(at 194.31 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2908,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 173.99 29.21 0)
+		(at 194.31 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2906,7 +2917,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0ce376f-d41c-410a-ba3d-2272189b48e5")
 		(property "Reference" "#FLG05"
-			(at 173.99 27.305 0)
+			(at 194.31 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2926,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 173.99 24.13 0)
+			(at 194.31 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 29.21 0)
+			(at 194.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 29.21 0)
+			(at 194.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2952,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 173.99 29.21 0)
+			(at 194.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3114,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 166.37 31.75 90)
+		(at 186.69 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3112,7 +3123,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2cb3fd7-c680-4f7d-bea4-5026fa875c73")
 		(property "Reference" "L2"
-			(at 166.37 26.67 90)
+			(at 186.69 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3131,7 @@
 			)
 		)
 		(property "Value" "82103C"
-			(at 166.37 29.21 90)
+			(at 186.69 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3139,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 166.37 31.75 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 31.75 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3157,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 166.37 31.75 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
