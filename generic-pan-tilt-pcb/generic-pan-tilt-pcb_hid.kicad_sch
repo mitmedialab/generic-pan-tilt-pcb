@@ -907,8 +907,9 @@
 				)
 			)
 		)
-		(symbol "LED:Inolux_IN-P55TATRGB"
-			(pin_names hide)
+		(symbol "LED:LTST-C235KGKRKT"
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -918,39 +919,35 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Inolux_IN-P55TATRGB"
-				(at -5.08 -6.35 0)
+			(property "Value" "LTST-C235KGKRKT"
+				(at 0 -5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm"
-				(at -5.08 -8.128 0)
+			(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C235KGKRKT"
+				(at 0.762 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf"
-				(at -5.08 -10.16 0)
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
+				(at 0.762 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Inolux RGB LED, PLCC-6"
+			(property "Description" "LED dual red/green, 4-pin, down-facing"
 				(at 0 0 0)
 				(effects
 					(font
@@ -959,7 +956,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED RGB"
+			(property "ki_keywords" "diode bicolor down-facing reverse"
 				(at 0 0 0)
 				(effects
 					(font
@@ -968,7 +965,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*Inolux*PLCC6*5.0x5.5mm*"
+			(property "ki_fp_filters" "*LTST*C235K*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -977,304 +974,162 @@
 					(hide yes)
 				)
 			)
-			(symbol "Inolux_IN-P55TATRGB_0_0"
-				(text "B"
-					(at -0.635 -3.3274 0)
+			(symbol "LTST-C235KGKRKT_0_0"
+				(text "G"
+					(at -2.54 -1.27 0)
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 1.2954 1.2954)
+						)
+					)
+				)
+				(text "R"
+					(at -2.54 1.27 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
 						)
 					)
 				)
 			)
-			(symbol "Inolux_IN-P55TATRGB_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+			(symbol "LTST-C235KGKRKT_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.794 6.604) (xy 2.032 6.604) (xy 2.794 6.604) (xy 2.794 5.842)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 4.064 5.334) (xy 3.302 5.334) (xy 4.064 5.334) (xy 4.064 4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -1.27) (xy -1.778 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 3.81) (xy -1.778 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.27) (xy -0.762 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 3.81) (xy -0.762 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 1.27) (xy 3.302 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.27) (xy 4.318 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 4.572) (xy -1.778 4.826) (xy -2.032 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.016) (xy -1.778 -0.254) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy -0.762 -0.254) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 4.572) (xy -0.762 4.826) (xy -1.016 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 1.524) (xy 3.302 2.286) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 2.032) (xy 4.318 2.286) (xy 4.064 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 -3.81) (xy -1.27 -2.54) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 1.27) (xy -1.27 2.54) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "Inolux_IN-P55TATRGB_1_0"
-				(text "G"
-					(at -0.635 1.8034 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(text "R"
-					(at 4.4196 -0.7112 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "Inolux_IN-P55TATRGB_1_1"
-				(pin passive line
+			(symbol "LTST-C235KGKRKT_1_1"
+				(pin input line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "KB"
+					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1289,10 +1144,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "KR"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1307,10 +1162,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "KG"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1325,10 +1180,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 2.54 0)
+				(pin input line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "AG"
+					(name "K1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1336,42 +1191,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "AR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "AB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2546,12 +2365,6 @@
 		(uuid "3803d67b-381e-45c0-9ecd-fc4133a5b190")
 	)
 	(junction
-		(at 194.31 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c4f15fd-048d-4e52-b2a8-8f67da6ae370")
-	)
-	(junction
 		(at 214.63 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2638,6 +2451,10 @@
 	(no_connect
 		(at 128.27 68.58)
 		(uuid "39848620-84f4-4e84-9a18-b94ec40af9b6")
+	)
+	(no_connect
+		(at 128.27 66.04)
+		(uuid "5090b4b3-469d-4dce-91df-6ef903757169")
 	)
 	(bus_entry
 		(at 187.96 97.79)
@@ -2907,16 +2724,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 57.15) (xy 227.33 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c364cf3-64f0-46b5-a6b6-f7fa0a41a645")
-	)
-	(wire
-		(pts
 			(xy 88.9 40.64) (xy 88.9 41.91)
 		)
 		(stroke
@@ -2954,16 +2761,6 @@
 			(type default)
 		)
 		(uuid "191aaef6-9ca7-47a3-b519-486384bf80b3")
-	)
-	(wire
-		(pts
-			(xy 226.06 54.61) (xy 245.11 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b0fc664-9eae-40a4-8a95-0f63aefd61ee")
 	)
 	(wire
 		(pts
@@ -3017,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 59.69) (xy 245.11 59.69)
+			(xy 232.41 59.69) (xy 233.68 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3097,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 59.69) (xy 236.22 59.69)
+			(xy 213.36 59.69) (xy 224.79 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3297,6 +3094,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 54.61) (xy 233.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f02f74-3a4a-453a-812c-a19501aec10d")
+	)
+	(wire
+		(pts
 			(xy 128.27 91.44) (xy 137.16 91.44)
 		)
 		(stroke
@@ -3384,16 +3191,6 @@
 			(type default)
 		)
 		(uuid "602b9a44-4c48-4adc-8714-5ab6cb25ad95")
-	)
-	(wire
-		(pts
-			(xy 234.95 57.15) (xy 245.11 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66a2f5b1-87db-421c-9216-249787564586")
 	)
 	(wire
 		(pts
@@ -3687,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 57.15) (xy 194.31 59.69)
+			(xy 194.31 54.61) (xy 194.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3734,16 +3531,6 @@
 			(type default)
 		)
 		(uuid "ad6d1483-924a-4183-bf6c-621f54fd7263")
-	)
-	(wire
-		(pts
-			(xy 194.31 57.15) (xy 198.12 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af98d886-e8c2-4f1f-b615-b8fcd75a1ed8")
 	)
 	(bus
 		(pts
@@ -3797,16 +3584,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 129.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4b20797-4b70-4f9a-98c1-71f7028a5cfd")
-	)
-	(wire
-		(pts
 			(xy 128.27 83.82) (xy 137.16 83.82)
 		)
 		(stroke
@@ -3824,16 +3601,6 @@
 			(type default)
 		)
 		(uuid "dc32e0b1-49e6-4fb1-adc5-75eafcb18d7c")
-	)
-	(wire
-		(pts
-			(xy 194.31 54.61) (xy 194.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcb38b5-3d15-4e42-a654-919dd12872fb")
 	)
 	(wire
 		(pts
@@ -4006,17 +3773,6 @@
 		)
 		(uuid "05bc9997-6f0b-43bd-bc4a-67213f0924fa")
 	)
-	(label "LED1_B"
-		(at 245.11 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23bbaa8a-bebb-4263-aad0-1eb5c52a16bc")
-	)
 	(label "DIP9"
 		(at 129.54 96.52 0)
 		(fields_autoplaced yes)
@@ -4061,17 +3817,6 @@
 		)
 		(uuid "588ab0b7-2360-4ff9-bb01-dd1b43d86cd4")
 	)
-	(label "LED1_B"
-		(at 129.54 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a25237a-29e9-48d1-abfd-7be9ff582b84")
-	)
 	(label "DIP8"
 		(at 129.54 93.98 0)
 		(fields_autoplaced yes)
@@ -4106,7 +3851,7 @@
 		(uuid "6631afab-d85c-4638-8ec6-65691cb2dbbd")
 	)
 	(label "LED1_G"
-		(at 245.11 54.61 0)
+		(at 233.68 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4205,7 +3950,7 @@
 		(uuid "d39a39b1-52eb-4131-9905-fe6da6686b95")
 	)
 	(label "LED1_R"
-		(at 245.11 57.15 0)
+		(at 233.68 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4362,74 +4107,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 231.14 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01c6cfa5-feff-4891-acef-7f019eae5aa2")
-		(property "Reference" "R19"
-			(at 231.14 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8Ω"
-			(at 231.14 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.394 56.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e87cb905-57fa-4159-8b6c-f562dddb3a02")
-		)
-		(pin "2"
-			(uuid "f3c6430a-d02a-4a71-92e0-19754af63175")
-		)
-		(instances
-			(project "generic-pan-tilt-pcb"
-				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 72.39 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4493,6 +4170,80 @@
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LTST-C235KGKRKT")
+		(at 205.74 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e2d88dc-1845-447a-905a-451faf587b94")
+		(property "Reference" "D3"
+			(at 205.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C235KGKRKT"
+			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C235KGKRKT"
+			(at 206.502 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
+			(at 206.502 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED dual red/green, 4-pin, down-facing"
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd698264-6565-4b9b-a34a-02bdc71607fd")
+		)
+		(pin "1"
+			(uuid "c9951146-c29c-4475-b8c4-46f7bd483ea4")
+		)
+		(pin "4"
+			(uuid "35c323f6-d2bf-422e-a5e2-aea0556bac2d")
+		)
+		(pin "3"
+			(uuid "369e3349-1035-4f97-96af-94f45102728e")
+		)
+		(instances
+			(project ""
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5259,88 +5010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:Inolux_IN-P55TATRGB")
-		(at 205.74 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf8c82cf-6b3e-4f6c-902c-ff4c77bbbfe2")
-		(property "Reference" "D3"
-			(at 205.74 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Inolux_IN-P55TATRGB"
-			(at 205.74 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm"
-			(at 200.66 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf"
-			(at 200.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inolux RGB LED, PLCC-6"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed38ed42-3dca-42d0-a5a5-2509761f1c31")
-		)
-		(pin "4"
-			(uuid "f516e6e5-6974-476d-81ba-dde30fb5e8ea")
-		)
-		(pin "5"
-			(uuid "619fe9d8-9889-40a5-bc85-3bae7119265f")
-		)
-		(pin "3"
-			(uuid "1651e483-84d0-4d7c-bc7a-02f92790e503")
-		)
-		(pin "2"
-			(uuid "f760fb96-4e25-47dd-ac01-7e7bbc25b988")
-		)
-		(pin "6"
-			(uuid "a4077f9f-ea33-4a9d-8bb0-0ee2448a8b58")
-		)
-		(instances
-			(project "generic-pan-tilt-pcb"
-				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 88.9 46.99 0)
 		(unit 1)
@@ -5548,7 +5217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 240.03 59.69 90)
+		(at 228.6 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5556,8 +5225,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2dd199a-1939-402e-9515-e75a1af27f37")
-		(property "Reference" "R20"
-			(at 240.03 53.34 90)
+		(property "Reference" "R19"
+			(at 228.6 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5234,7 @@
 			)
 		)
 		(property "Value" "17Ω"
-			(at 240.03 55.88 90)
+			(at 228.6 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5242,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.284 58.674 90)
+			(at 228.854 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 59.69 0)
+			(at 228.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5260,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 240.03 59.69 0)
+			(at 228.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5277,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/58e8aa21-838b-4e25-b5a5-dc2029ad2cce"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)

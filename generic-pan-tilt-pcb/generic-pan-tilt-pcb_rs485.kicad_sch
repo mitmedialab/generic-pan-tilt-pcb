@@ -2846,7 +2846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a075b3b6-3646-44ba-9868-cef0f6b0fe84")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 198.12 35.5599 0)
 			(effects
 				(font
@@ -2900,7 +2900,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2982,7 +2982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c52c58bd-a529-4612-9976-80f1944985d6")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 190.5 76.1999 0)
 			(effects
 				(font
@@ -3036,7 +3036,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
