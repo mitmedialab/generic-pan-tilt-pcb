@@ -29,6 +29,10 @@ jobs:
         fetch-depth: '0'
     # This is a KiCad 5 example, KiCad 6 uses v2_k6
     - uses: INTI-CMNB/KiBot@v2_k8
+      env:
+        DIGIKEY_CLIENT_ID: ${{ secrets.DIGIKEY_CLIENT_ID }}
+        DIGIKEY_CLIENT_SECRET: ${{ secrets.DIGIKEY_CLIENT_SECRET }}
+        MOUSER_PART_API_KEY: ${{ secrets.MOUSER_PART_API_KEY }}
       with:
         # Required - kibot config file
         config: generic-pan-tilt-home-sensor-pcb/generic-pan-tilt-home-sensor-pcb.kibot.yaml
