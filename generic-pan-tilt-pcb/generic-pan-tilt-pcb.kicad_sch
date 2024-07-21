@@ -7024,6 +7024,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" "455-B4P-VH-FB-B-ND"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8fa79441-938f-4a5e-bbc2-ed0425bc317f")
 		)
@@ -7199,7 +7208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B12B-PH-SM4-TB"
+		(property "Value" "B12B-PH-SM4-TBT"
 			(at 189.23 86.3599 0)
 			(effects
 				(font
@@ -7227,6 +7236,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-B12B-PH-SM4-TBTCT-ND"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -7497,7 +7515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB"
+		(property "Value" "BM03B-SRSS-TBT"
 			(at 149.86 48.2599 0)
 			(effects
 				(font
@@ -7525,6 +7543,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-BM03B-SRSS-TBTCT-ND"
 			(at 147.32 46.99 0)
 			(effects
 				(font
@@ -7935,6 +7962,33 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "NC5FAV"
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "568-NC5FAV"
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fcc40183-432b-461e-bbe0-758dc52c3692")
 		)
@@ -8023,6 +8077,33 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "digikey#" "846-SML-E12V8WT86CT-ND"
+			(at 245.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-E12V8WT86"
+			(at 245.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-E12V8WT86"
+			(at 245.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8189,7 +8270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB"
+		(property "Value" "BM03B-SRSS-TBT"
 			(at 185.42 48.2599 0)
 			(effects
 				(font
@@ -8217,6 +8298,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-BM03B-SRSS-TBTCT-ND"
 			(at 182.88 46.99 0)
 			(effects
 				(font
@@ -8353,6 +8443,33 @@
 			)
 		)
 		(property "Description" "A Series, 5 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount"
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NC5MAV"
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "568-NC5MAV"
 			(at 83.82 132.08 0)
 			(effects
 				(font
@@ -8774,6 +8891,33 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "USB4115-03-C"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "2073-USB4115-03-CCT-ND"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "640-USB4115-03-C"
 			(at 213.36 38.1 0)
 			(effects
 				(font
@@ -9383,7 +9527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B12B-PH-SM4-TB"
+		(property "Value" "B12B-PH-SM4-TBT"
 			(at 189.23 121.9199 0)
 			(effects
 				(font
@@ -9411,6 +9555,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-B12B-PH-SM4-TBTCT-ND"
 			(at 186.69 119.38 0)
 			(effects
 				(font
@@ -9647,6 +9800,33 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" "PTS647SK70SMTR2LFSCT-ND"
+			(at 247.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PTS 647 SK70 SMTR2 LFS"
+			(at 247.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-PTS647SK70SMTR2L"
+			(at 247.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bf1b7a3-bde8-462a-a652-dc6a1329f6c9")
 		)
@@ -9771,6 +9951,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "PTS647SK70SMTR2LFSCT-ND"
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PTS 647 SK70 SMTR2 LFS"
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-PTS647SK70SMTR2L"
 			(at 247.65 134.62 0)
 			(effects
 				(font
@@ -10115,6 +10322,33 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "digikey#" "846-SML-E12M8WT86CT-ND"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-E12M8WT86"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-E12M8WT86"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

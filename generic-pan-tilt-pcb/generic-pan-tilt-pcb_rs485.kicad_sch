@@ -2703,6 +2703,33 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" "296-ISO1450DW-ND"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "ISO1450DW"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-ISO1450DW"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "d35718c1-5e7b-4fc5-b7fd-814e43ca3547")
 		)
@@ -2807,6 +2834,33 @@
 			)
 		)
 		(property "Description" "0.75W, 3000 VDC isolated DC/DC converter, 3V3 input, 3V3 output, SIP"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "811-2889-5-ND"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CME0303S3C"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "580-CME0303S3C"
 			(at 148.59 34.29 0)
 			(effects
 				(font
@@ -3157,6 +3211,33 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "811-2473-1-ND"
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "82103C"
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "580-82103C"
 			(at 186.69 31.75 0)
 			(effects
 				(font

@@ -5153,6 +5153,33 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "SC0914(13)"
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "2648-SC0914(13)CT-ND"
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "358-SC091413"
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "53"
 			(uuid "33478de0-b7d1-4c2a-ad44-a4d277f32697")
 		)
@@ -7010,6 +7037,33 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" "W25Q128JVSIQCT-ND"
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "W25Q128JVSIQ TR"
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "454-W25Q128JVSIQTR"
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "c52f62b8-cd53-483d-8a46-7d5cb3c66e53")
 		)
@@ -7223,6 +7277,33 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 41.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "535-ABM8-272-T3CT-ND"
+			(at 41.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "ABM8-272-T3"
+			(at 41.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "815-ABM8-272-T3"
 			(at 41.91 127 0)
 			(effects
 				(font
