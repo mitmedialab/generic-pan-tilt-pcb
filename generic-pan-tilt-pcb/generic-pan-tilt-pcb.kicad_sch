@@ -8864,7 +8864,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4115-03-C"
+		(property "Value" "USB4105-GF-A"
 			(at 213.36 17.78 0)
 			(effects
 				(font
@@ -8872,7 +8872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+		(property "Footprint" "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 217.17 38.1 0)
 			(effects
 				(font
@@ -8899,7 +8899,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "USB4115-03-C"
+		(property "manf#" "USB4105-GF-A"
 			(at 213.36 38.1 0)
 			(effects
 				(font
@@ -8908,7 +8908,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "2073-USB4115-03-CCT-ND"
+		(property "digikey#" "2073-USB4105-GF-ACT-ND"
 			(at 213.36 38.1 0)
 			(effects
 				(font
@@ -8917,7 +8917,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "640-USB4115-03-C"
+		(property "mouser#" "640-USB4105-GF-A"
 			(at 213.36 38.1 0)
 			(effects
 				(font

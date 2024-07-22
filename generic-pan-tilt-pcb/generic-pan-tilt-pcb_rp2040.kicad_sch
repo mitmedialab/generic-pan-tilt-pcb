@@ -7102,9 +7102,9 @@
 		(at 182.88 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a7f3f943-8304-46d9-844d-a3cdedc2688d")
 		(property "Reference" "C11"
