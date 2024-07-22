@@ -4423,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 152.4) (xy 252.73 152.4)
+			(xy 255.27 148.59) (xy 252.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4593,7 +4593,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 135.89) (xy 255.27 134.62)
+			(xy 255.27 132.08) (xy 255.27 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4743,7 +4743,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 134.62) (xy 242.57 134.62)
+			(xy 233.68 130.81) (xy 242.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4753,7 +4753,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 162.56) (xy 158.75 162.56)
+			(xy 146.05 162.56) (xy 148.59 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4793,7 +4793,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 165.1) (xy 158.75 165.1)
+			(xy 146.05 165.1) (xy 148.59 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4973,7 +4973,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 134.62) (xy 252.73 134.62)
+			(xy 255.27 130.81) (xy 252.73 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5043,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 134.62) (xy 226.06 134.62)
+			(xy 223.52 130.81) (xy 226.06 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5153,7 +5153,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 153.67) (xy 255.27 152.4)
+			(xy 255.27 149.86) (xy 255.27 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5233,7 +5233,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 151.13) (xy 158.75 151.13)
+			(xy 146.05 151.13) (xy 148.59 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5423,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 148.59) (xy 158.75 148.59)
+			(xy 146.05 148.59) (xy 148.59 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5453,7 +5453,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 152.4) (xy 242.57 152.4)
+			(xy 223.52 148.59) (xy 242.57 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5850,7 +5850,7 @@
 		(uuid "11b93d50-4f2b-4a5c-ad40-acd993e276e5")
 	)
 	(label "I2C0_SDA"
-		(at 156.21 148.59 180)
+		(at 146.05 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5894,7 +5894,7 @@
 		(uuid "18dc4b7a-9a26-49fd-bcde-c3124f7e8429")
 	)
 	(label "BOOTSEL"
-		(at 223.52 134.62 180)
+		(at 223.52 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5927,7 +5927,7 @@
 		(uuid "1cfe6334-1df1-4001-bdb7-9b3c6df5edf8")
 	)
 	(label "I2C0_SDA"
-		(at 156.21 162.56 180)
+		(at 146.05 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6026,7 +6026,7 @@
 		(uuid "3a03dd96-1bae-4599-a51f-62a28ca2e4c4")
 	)
 	(label "RESET"
-		(at 223.52 152.4 180)
+		(at 223.52 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6367,7 +6367,7 @@
 		(uuid "8a654280-c493-4f44-a4ad-2d4727b5bf78")
 	)
 	(label "I2C0_SCL"
-		(at 156.21 165.1 180)
+		(at 146.05 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6400,7 +6400,7 @@
 		(uuid "9d77d35c-cde5-4b86-ad8d-1c4a1b0ceebf")
 	)
 	(label "I2C0_SCL"
-		(at 156.21 151.13 180)
+		(at 146.05 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6709,7 +6709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 135.89 0)
+		(at 255.27 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6718,7 +6718,7 @@
 		(fields_autoplaced yes)
 		(uuid "081bf372-732e-41df-88bf-89ea69779826")
 		(property "Reference" "#PWR018"
-			(at 255.27 142.24 0)
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +6727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 140.97 0)
+			(at 255.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 135.89 0)
+			(at 255.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,7 +6744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 135.89 0)
+			(at 255.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 135.89 0)
+			(at 255.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7372,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 229.87 166.37 0)
+		(at 215.9 161.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7380,7 +7380,7 @@
 		(dnp no)
 		(uuid "225d9add-6e4e-4a18-a59e-b48950a9b50c")
 		(property "Reference" "FID2"
-			(at 232.41 165.0999 0)
+			(at 218.44 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7389,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 232.41 167.6399 0)
+			(at 218.44 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +7398,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 229.87 166.37 0)
+			(at 215.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7407,7 +7407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 166.37 0)
+			(at 215.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7416,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 229.87 166.37 0)
+			(at 215.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,6 +7492,69 @@
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b067d75-d7a3-4ba0-aefe-e5e0dac5df60")
+		(property "Reference" "FID7"
+			(at 243.84 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 241.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "generic-pan-tilt-pcb"
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1"
+					(reference "FID7")
 					(unit 1)
 				)
 			)
@@ -7642,6 +7705,69 @@
 			(project ""
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 255.27 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "31fac216-71ff-41e0-a22a-74c4551af10b")
+		(property "Reference" "FID5"
+			(at 257.81 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 257.81 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 255.27 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 255.27 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "generic-pan-tilt-pcb"
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1"
+					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -8247,6 +8373,69 @@
 			(project ""
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 255.27 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "57d32342-038a-4930-96dd-6c0803da2c28")
+		(property "Reference" "FID8"
+			(at 257.81 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 257.81 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 255.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 255.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "generic-pan-tilt-pcb"
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1"
+					(reference "FID8")
 					(unit 1)
 				)
 			)
@@ -8982,7 +9171,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 217.17 166.37 0)
+		(at 203.2 161.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8990,7 +9179,7 @@
 		(dnp no)
 		(uuid "7b43e994-b442-4c64-b37f-bb668949c4ce")
 		(property "Reference" "FID1"
-			(at 219.71 165.0999 0)
+			(at 205.74 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9188,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 219.71 167.6399 0)
+			(at 205.74 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9197,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 217.17 166.37 0)
+			(at 203.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 166.37 0)
+			(at 203.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9215,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 217.17 166.37 0)
+			(at 203.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +9505,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 242.57 166.37 0)
+		(at 228.6 161.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9324,7 +9513,7 @@
 		(dnp no)
 		(uuid "9a8090b2-543c-4ffb-8be6-fd7c8fe32202")
 		(property "Reference" "FID3"
-			(at 245.11 165.0999 0)
+			(at 231.14 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,7 +9522,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 245.11 167.6399 0)
+			(at 231.14 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9342,7 +9531,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 242.57 166.37 0)
+			(at 228.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9351,7 +9540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 166.37 0)
+			(at 228.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9549,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 242.57 166.37 0)
+			(at 228.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9568,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 229.87 134.62 90)
+		(at 229.87 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9388,7 +9577,7 @@
 		(fields_autoplaced yes)
 		(uuid "9af229a2-e8e8-4797-b98a-ae741290cfcc")
 		(property "Reference" "R2"
-			(at 229.87 128.27 90)
+			(at 229.87 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +9585,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 229.87 130.81 90)
+			(at 229.87 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9404,7 +9593,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 230.124 133.604 90)
+			(at 230.124 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9413,7 +9602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 134.62 0)
+			(at 229.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +9611,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 229.87 134.62 0)
+			(at 229.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +9636,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 255.27 166.37 0)
+		(at 241.3 161.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9455,7 +9644,7 @@
 		(dnp no)
 		(uuid "9b133d41-a362-4f9f-8c9c-7f25ed593949")
 		(property "Reference" "FID4"
-			(at 257.81 165.0999 0)
+			(at 243.84 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9653,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 257.81 167.6399 0)
+			(at 243.84 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9662,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 255.27 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +9671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +9680,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 255.27 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +9939,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 247.65 152.4 0)
+		(at 247.65 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9758,7 +9947,7 @@
 		(dnp no)
 		(uuid "aa6882c9-da9e-44bb-98b0-c34e40b63e2e")
 		(property "Reference" "SW2"
-			(at 247.65 144.78 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +9955,7 @@
 			)
 		)
 		(property "Value" "PTS 647 SK70 SMTR2 LFS"
-			(at 247.65 147.32 0)
+			(at 247.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,7 +9963,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
-			(at 247.65 147.32 0)
+			(at 247.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9972,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 147.32 0)
+			(at 247.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9981,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 247.65 152.4 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +9990,7 @@
 			)
 		)
 		(property "digikey#" "PTS647SK70SMTR2LFSCT-ND"
-			(at 247.65 152.4 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +9999,7 @@
 			)
 		)
 		(property "manf#" "PTS 647 SK70 SMTR2 LFS"
-			(at 247.65 152.4 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +10008,7 @@
 			)
 		)
 		(property "mouser#" "611-PTS647SK70SMTR2L"
-			(at 247.65 152.4 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +10097,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 247.65 134.62 0)
+		(at 247.65 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9917,7 +10106,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3e8c5b4-b5c3-49ee-9a5b-7f0436bb301d")
 		(property "Reference" "SW1"
-			(at 247.65 127 0)
+			(at 247.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,7 +10114,7 @@
 			)
 		)
 		(property "Value" "PTS 647 SK70 SMTR2 LFS"
-			(at 247.65 129.54 0)
+			(at 247.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +10122,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
-			(at 247.65 129.54 0)
+			(at 247.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 129.54 0)
+			(at 247.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,7 +10140,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 247.65 134.62 0)
+			(at 247.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,7 +10149,7 @@
 			)
 		)
 		(property "digikey#" "PTS647SK70SMTR2LFSCT-ND"
-			(at 247.65 134.62 0)
+			(at 247.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,7 +10158,7 @@
 			)
 		)
 		(property "manf#" "PTS 647 SK70 SMTR2 LFS"
-			(at 247.65 134.62 0)
+			(at 247.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10167,7 @@
 			)
 		)
 		(property "mouser#" "611-PTS647SK70SMTR2L"
-			(at 247.65 134.62 0)
+			(at 247.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,8 +10322,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 228.6 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7c3c877-a01d-404c-bb8c-b3d069828938")
+		(property "Reference" "FID6"
+			(at 231.14 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 231.14 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 228.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 228.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "generic-pan-tilt-pcb"
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 255.27 153.67 0)
+		(at 255.27 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10142,7 +10394,7 @@
 		(dnp no)
 		(uuid "e481661a-627b-405d-8215-d7c1eaf9bd50")
 		(property "Reference" "#PWR019"
-			(at 255.27 160.02 0)
+			(at 255.27 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +10403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 158.75 0)
+			(at 255.27 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 153.67 0)
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 153.67 0)
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 153.67 0)
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +11111,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 147.32)
+		(at 148.59 147.32)
 		(size 30.48 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -10871,7 +11123,7 @@
 		)
 		(uuid "58e8aa21-838b-4e25-b5a5-dc2029ad2cce")
 		(property "Sheetname" "generic-pan-tilt-pcb_hid"
-			(at 158.75 146.6084 0)
+			(at 148.59 146.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10880,7 +11132,7 @@
 			)
 		)
 		(property "Sheetfile" "generic-pan-tilt-pcb_hid.kicad_sch"
-			(at 158.75 152.9846 0)
+			(at 148.59 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10889,7 +11141,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 158.75 148.59 180)
+			(at 148.59 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +11151,7 @@
 			(uuid "f7ec62a2-188c-4e37-ab56-74cbe71b2437")
 		)
 		(pin "I2C_SCL" input
-			(at 158.75 151.13 180)
+			(at 148.59 151.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +11169,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 161.29)
+		(at 148.59 161.29)
 		(size 30.48 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -10929,7 +11181,7 @@
 		)
 		(uuid "7805edd4-fec1-461c-8c6e-1ac5d9a803a6")
 		(property "Sheetname" "generic-pan-tilt-pcb_accelerometer"
-			(at 158.75 160.5784 0)
+			(at 148.59 160.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10938,7 +11190,7 @@
 			)
 		)
 		(property "Sheetfile" "generic-pan-tilt-pcb_accelerometer.kicad_sch"
-			(at 158.75 166.9546 0)
+			(at 148.59 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +11199,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 158.75 165.1 180)
+			(at 148.59 165.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,7 +11209,7 @@
 			(uuid "657efcf3-81ae-4afc-ad42-f63772e8cbe2")
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 158.75 162.56 180)
+			(at 148.59 162.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
