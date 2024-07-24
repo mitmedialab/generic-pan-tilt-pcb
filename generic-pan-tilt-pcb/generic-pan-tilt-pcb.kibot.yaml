@@ -601,6 +601,156 @@ outputs:
   - layer: B.Fab
     suffix: B_Fab
     description: Back documentation
+- name: basic_pdf
+  comment: Individual layers in PDF format
+  type: pdf
+  dir: Individual_Layers/PDF
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
+- name: basic_ps
+  comment: Individual layers in PS format
+  type: ps
+  dir: Individual_Layers/PS
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
+- name: basic_svg
+  comment: Individual layers in SVG format
+  type: svg
+  dir: Individual_Layers/SVG
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_pcb_print_pdf
   comment: PCB
   type: pcb_print
@@ -803,160 +953,6 @@ outputs:
       - layer: Edge.Cuts
       sheet: Back documentation
     keep_temporal_files: true
-- name: basic_pdf
-  comment: Individual layers in PDF format
-  type: pdf
-  dir: Individual_Layers/PDF
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_ps
-  comment: Individual layers in PS format
-  type: ps
-  dir: Individual_Layers/PS
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_svg
-  comment: Individual layers in SVG format
-  type: svg
-  dir: Individual_Layers/SVG
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_vrml
-  comment: PCB in VRML format
-  type: vrml
-  dir: 3D
 
 # Stencil
 - name: basic_stencil_3d
@@ -970,12 +966,6 @@ outputs:
   options:
     jigwidth: 100
     jigheight: 100
-
-# 3D export
-- name: basic_step
-  comment: 3D model in STEP format
-  type: step
-  dir: 3D
 
 # 2D render
 - name: basic_pcbdraw_svg_jlcpcb_green_enig_top
@@ -1042,6 +1032,16 @@ outputs:
     style: set-red-hasl
     format: jpg
 
+# 3D export
+- name: basic_step
+  comment: 3D model in STEP format
+  type: step
+  dir: 3D
+- name: basic_vrml
+  comment: PCB in VRML format
+  type: vrml
+  dir: 3D
+
 # 3D render
 - name: basic_render_3d_top
   comment: 3D view from top
@@ -1064,7 +1064,7 @@ outputs:
   type: blender_export
   dir: 3D
   options:
-    pcb3d: _PCB2Blender_2_1
+    pcb3d: _PCB2Blender_2_7
     outputs:
     - type: render
     - type: blender
