@@ -31026,7 +31026,7 @@
 			(justify right top mirror)
 		)
 	)
-	(gr_text "${KIBOT_GIT_DESCRIBE}\n${KIBOT_GIT_DATE}\n${KITBOT_RUN_DATE}"
+	(gr_text "Rev: ${KIBOT_GIT_DESCRIBE}\n${KIBOT_GIT_DATE}\n${KITBOT_RUN_DATE}"
 		(at 167.45 119.95 0)
 		(layer "B.SilkS")
 		(uuid "9a2f5ced-a443-4cf4-9eec-366863df880d")
