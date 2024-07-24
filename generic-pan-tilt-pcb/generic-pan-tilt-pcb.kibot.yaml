@@ -8,41 +8,41 @@ global:
   restore_project: true
 
 import:
-- file: Elecrow
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/Elecrow
+# - file: Elecrow
+#   definitions:
+#     _KIBOT_MANF_DIR: Manufacturers/Elecrow
 - file: Elecrow_stencil
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/Elecrow_stencil
-- file: FusionPCB
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/FusionPCB
+# - file: FusionPCB
+#   definitions:
+#     _KIBOT_MANF_DIR: Manufacturers/FusionPCB
 - file: FusionPCB_stencil
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/FusionPCB_stencil
-- file: JLCPCB
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/JLCPCB
-    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
-    _KIBOT_BOM_ENABLED: 'false'
-- file: JLCPCB_stencil
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/JLCPCB_stencil
-    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
-    _KIBOT_BOM_ENABLED: 'false'
-- file: JLCPCB_with_THT
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/JLCPCB_with_THT
-    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
-    _KIBOT_BOM_ENABLED: 'false'
+# - file: JLCPCB
+#   definitions:
+#     _KIBOT_MANF_DIR: Manufacturers/JLCPCB
+#     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+#     _KIBOT_BOM_ENABLED: 'false'
+# - file: JLCPCB_stencil
+#   definitions:
+#     _KIBOT_MANF_DIR: Manufacturers/JLCPCB_stencil
+#     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+#     _KIBOT_BOM_ENABLED: 'false'
+# - file: JLCPCB_with_THT
+#   definitions:
+#     _KIBOT_MANF_DIR: Manufacturers/JLCPCB_with_THT
+#     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+#     _KIBOT_BOM_ENABLED: 'false'
 - file: JLCPCB_stencil_with_THT
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/JLCPCB_stencil_with_THT
     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
     _KIBOT_BOM_ENABLED: 'false'
-- file: PCBWay
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/PCBWay
+# - file: PCBWay
+#   definitions:
+#     _KIBOT_MANF_DIR: Manufacturers/PCBWay
 - file: PCBWay_stencil
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/PCBWay_stencil
