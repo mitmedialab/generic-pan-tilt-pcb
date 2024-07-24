@@ -12113,7 +12113,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "108Ω"
+		(property "Value" "65Ω"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "42bbfa30-7f85-4186-8e9a-2df4fda9b9f4")
@@ -21148,7 +21148,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "17Ω"
+		(property "Value" "65Ω"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "6c234f30-b0c7-4e04-aa2c-7e937edcb737")
@@ -22587,7 +22587,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "82103C"
+		(property "Value" "10µH 500mA 400MΩ"
 			(at 0 -2.28 90)
 			(layer "B.Fab")
 			(uuid "472d619a-2b5d-410e-9a03-3d2ea10b5477")
@@ -23626,7 +23626,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "VLS6045EX-6R8M"
+		(property "Value" "6.8µH 3.6A 36MΩ"
 			(at 0 -4 0)
 			(unlocked yes)
 			(layer "B.Fab")

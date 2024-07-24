@@ -1938,18 +1938,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe1e0b1c-c572-4631-9c6f-571a09df6496")
 		(property "Reference" "L1"
-			(at 148.59 82.55 90)
+			(at 148.59 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VLS6045EX-6R8M"
-			(at 148.59 85.09 90)
+		(property "Value" "6.8µH 3.6A 36MΩ"
+			(at 148.59 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,12 +1992,11 @@
 			)
 		)
 		(property "manf#" "VLS6045EX-6R8M"
-			(at 148.59 87.63 0)
+			(at 148.59 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "mouser#" "810-VLS6045EX-6R8M"

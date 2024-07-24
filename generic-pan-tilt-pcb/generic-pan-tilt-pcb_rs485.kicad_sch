@@ -1712,7 +1712,7 @@
 		(uuid "6d3b78a5-2198-40e9-8df6-46b724947923")
 	)
 	(junction
-		(at 194.31 31.75)
+		(at 201.93 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89e7f8db-0deb-4dae-92ea-0f2cb1ae5c15")
@@ -1793,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 41.91) (xy 194.31 40.64)
+			(xy 201.93 41.91) (xy 201.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 31.75) (xy 158.75 31.75)
+			(xy 184.15 31.75) (xy 158.75 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 29.21) (xy 194.31 31.75)
+			(xy 201.93 25.4) (xy 201.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 31.75) (xy 194.31 31.75)
+			(xy 205.74 31.75) (xy 201.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2053,7 +2053,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 33.02) (xy 194.31 31.75)
+			(xy 191.77 31.75) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b7fc1e-7030-4bfb-bbc0-0ca68c5507c5")
+	)
+	(wire
+		(pts
+			(xy 201.93 33.02) (xy 201.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2113,16 +2123,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 31.75) (xy 190.5 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db163c0a-82f0-4947-b891-bf72888f24aa")
-	)
-	(wire
-		(pts
 			(xy 132.08 102.87) (xy 133.35 102.87)
 		)
 		(stroke
@@ -2133,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 29.21) (xy 121.92 31.75)
+			(xy 121.92 25.4) (xy 121.92 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2152,7 @@
 		(uuid "f7509246-860a-493b-ae76-2e047e06864c")
 	)
 	(label "+3V3_ISO"
-		(at 198.12 31.75 0)
+		(at 205.74 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2186,7 +2186,7 @@
 	)
 	(hierarchical_label "RS485_GND"
 		(shape input)
-		(at 194.31 41.91 270)
+		(at 201.93 41.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2454,7 +2454,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 121.92 29.21 0)
+		(at 121.92 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2463,7 +2463,7 @@
 		(fields_autoplaced yes)
 		(uuid "487bf9c2-8fbd-4c36-b844-5641f045c8e4")
 		(property "Reference" "#PWR053"
-			(at 121.92 33.02 0)
+			(at 121.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2472,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.92 24.13 0)
+			(at 121.92 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 29.21 0)
+			(at 121.92 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 29.21 0)
+			(at 121.92 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 29.21 0)
+			(at 121.92 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2896,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 36.83 0)
+		(at 201.93 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2905,7 +2905,7 @@
 		(fields_autoplaced yes)
 		(uuid "a075b3b6-3646-44ba-9868-cef0f6b0fe84")
 		(property "Reference" "C27"
-			(at 198.12 35.5599 0)
+			(at 205.74 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2914,7 @@
 			)
 		)
 		(property "Value" "4.7μF 10V"
-			(at 198.12 38.0999 0)
+			(at 205.74 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2923,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 195.2752 40.64 0)
+			(at 202.8952 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 36.83 0)
+			(at 201.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2941,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 36.83 0)
+			(at 201.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2966,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 194.31 29.21 0)
+		(at 201.93 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2975,7 +2975,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0ce376f-d41c-410a-ba3d-2272189b48e5")
 		(property "Reference" "#FLG05"
-			(at 194.31 27.305 0)
+			(at 201.93 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2984,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 194.31 24.13 0)
+			(at 201.93 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 29.21 0)
+			(at 201.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 29.21 0)
+			(at 201.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3010,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 194.31 29.21 0)
+			(at 201.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,24 +3172,23 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 186.69 31.75 90)
+		(at 187.96 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2cb3fd7-c680-4f7d-bea4-5026fa875c73")
 		(property "Reference" "L2"
-			(at 186.69 26.67 90)
+			(at 187.96 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "82103C"
-			(at 186.69 29.21 90)
+		(property "Value" "10µH 500mA 400MΩ"
+			(at 187.96 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3196,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 186.69 31.75 0)
+			(at 187.96 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 31.75 0)
+			(at 187.96 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +3214,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 186.69 31.75 0)
+			(at 187.96 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3223,7 @@
 			)
 		)
 		(property "digikey#" "811-2473-1-ND"
-			(at 186.69 31.75 0)
+			(at 187.96 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,16 +3232,15 @@
 			)
 		)
 		(property "manf#" "82103C"
-			(at 186.69 31.75 0)
+			(at 187.96 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "mouser#" "580-82103C"
-			(at 186.69 31.75 0)
+			(at 187.96 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

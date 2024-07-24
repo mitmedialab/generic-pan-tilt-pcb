@@ -2818,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 59.69) (xy 233.68 59.69)
+			(xy 226.06 59.69) (xy 229.87 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 59.69) (xy 224.79 59.69)
+			(xy 213.36 59.69) (xy 218.44 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3098,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 54.61) (xy 233.68 54.61)
+			(xy 226.06 54.61) (xy 229.87 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3855,7 +3855,7 @@
 		(uuid "6631afab-d85c-4638-8ec6-65691cb2dbbd")
 	)
 	(label "LED1_G"
-		(at 233.68 59.69 0)
+		(at 229.87 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3954,7 +3954,7 @@
 		(uuid "d39a39b1-52eb-4131-9905-fe6da6686b95")
 	)
 	(label "LED1_R"
-		(at 233.68 54.61 0)
+		(at 229.87 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4912,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Value" "108Ω"
+		(property "Value" "65Ω"
 			(at 222.25 50.8 90)
 			(effects
 				(font
@@ -5302,24 +5302,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 228.6 59.69 90)
+		(at 222.25 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e2dd199a-1939-402e-9515-e75a1af27f37")
 		(property "Reference" "R19"
-			(at 228.6 53.34 90)
+			(at 222.25 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "17Ω"
-			(at 228.6 55.88 90)
+		(property "Value" "65Ω"
+			(at 222.25 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5326,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 228.854 58.674 90)
+			(at 222.504 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 59.69 0)
+			(at 222.25 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5344,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 228.6 59.69 0)
+			(at 222.25 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
