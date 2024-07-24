@@ -11,23 +11,46 @@ import:
 - file: Elecrow
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/Elecrow
-- file: ExportProject
+- file: Elecrow_stencil
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/Elecrow_stencil
 - file: FusionPCB
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/FusionPCB
+- file: FusionPCB_stencil
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/FusionPCB_stencil
 - file: JLCPCB
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/JLCPCB
     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
     _KIBOT_BOM_ENABLED: 'false'
-- file: MacroFab_XYRS
+- file: JLCPCB_stencil
   definitions:
-    _KIBOT_MPN_FIELD: ''
-- file: PCB2Blender_2_1
+    _KIBOT_MANF_DIR: Manufacturers/JLCPCB_stencil
+    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+    _KIBOT_BOM_ENABLED: 'false'
+- file: JLCPCB_with_THT
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/JLCPCB_with_THT
+    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+    _KIBOT_BOM_ENABLED: 'false'
+- file: JLCPCB_stencil_with_THT
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/JLCPCB_stencil_with_THT
+    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+    _KIBOT_BOM_ENABLED: 'false'
 - file: PCBWay
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/PCBWay
-- file: PanelDemo_4x4
+- file: PCBWay_stencil
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/PCBWay_stencil
+- file: MacroFab_XYRS
+  definitions:
+    _KIBOT_MPN_FIELD: ''
+- file: PCB2Blender_2_7
+- file: ExportProject
 
 preflight:
   drc:
@@ -57,24 +80,12 @@ preflight:
       before: 'Compile: '
 
 outputs:
-- name: basic_blender_export
-  comment: 3D view from top/30 deg/bottom (Blender)
-  type: blender_export
-  dir: 3D
-  options:
-    pcb3d: _PCB2Blender_2_1
-    outputs:
-    - type: render
-    - type: blender
-    point_of_view:
-    - view: top
-    - rotate_x: 30
-      rotate_z: -20
-      file_id: _30deg
 - name: basic_boardview
   comment: Board View export
   type: boardview
   dir: Assembly
+
+# BOM
 - name: generic_bom_html
   comment: Generic Bill of Materials in HTML format
   type: bom
@@ -174,6 +185,8 @@ outputs:
       specs: true
       kicost_api_disable: KitSpace
     pre_transform: _kicost_rename
+
+# Diff
 - name: basic_diff_pcb
   comment: PCB diff between the last two changes
   type: diff
@@ -243,64 +256,14 @@ outputs:
     cache_dir: /.cache
     add_link_id: true
     pcb: false
+
+# Datasheets
 - name: basic_download_datasheets
   comment: Download the datasheets
   type: download_datasheets
   dir: Datasheets
-- name: basic_dxf
-  comment: Individual layers in DXF format
-  type: dxf
-  dir: Individual_Layers/DXF
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_dxf_sch_print
-  comment: Schematic in DXF format
-  type: dxf_sch_print
-  dir: Schematic
+
+# Gerbers
 - name: basic_excellon
   comment: Drill files in EXCELLON format
   type: excellon
@@ -367,60 +330,8 @@ outputs:
   - layer: B.Fab
     suffix: B_Fab
     description: Back documentation
-- name: basic_hpgl
-  comment: Individual layers in HPGL format
-  type: hpgl
-  dir: Individual_Layers/HPGL
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_hpgl_sch_print
-  comment: Schematic in HPGL format
-  type: hpgl_sch_print
-  dir: Schematic
+
+# Interactive exports
 - name: basic_ibom
   comment: Interactive HTML BoM
   type: ibom
@@ -521,6 +432,8 @@ outputs:
   options:
     link_from_root: index.html
     skip_not_run: true
+
+# Netlists
 - name: classic_netlist
   comment: Schematic netlist in KiCad format
   type: netlist
@@ -531,6 +444,163 @@ outputs:
   dir: Export
   options:
     format: ipc
+
+# Position
+- name: basic_position_ASCII
+  comment: Components position for Pick & Place
+  type: position
+  dir: Position
+  options:
+    format: ASCII
+    only_smd: false
+    separate_files_for_front_and_back: false
+- name: basic_position_CSV
+  comment: Components position for Pick & Place
+  type: position
+  dir: Position
+  options:
+    format: CSV
+    only_smd: false
+    separate_files_for_front_and_back: false
+
+# Reports
+- name: report_simple
+  comment: Simple design report
+  type: report
+  output_id: _simple
+  options:
+    template: simple_ASCII
+    do_convert: true
+- name: report_full
+  comment: Full design report
+  type: report
+  options:
+    template: full_SVG
+    do_convert: true
+
+# Schematic export
+- name: basic_dxf_sch_print
+  comment: Schematic in DXF format
+  type: dxf_sch_print
+  dir: Schematic
+- name: basic_hpgl_sch_print
+  comment: Schematic in HPGL format
+  type: hpgl_sch_print
+  dir: Schematic
+- name: basic_pdf_sch_print
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: Schematic
+- name: basic_ps_sch_print
+  comment: Schematic in PS format
+  type: ps_sch_print
+  dir: Schematic
+- name: basic_svg_sch_print
+  comment: Schematic in SVG format
+  type: svg_sch_print
+  dir: Schematic
+
+# PCB export
+- name: basic_dxf
+  comment: Individual layers in DXF format
+  type: dxf
+  dir: Individual_Layers/DXF
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
+- name: basic_hpgl
+  comment: Individual layers in HPGL format
+  type: hpgl
+  dir: Individual_Layers/HPGL
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_pcb_print_pdf
   comment: PCB
   type: pcb_print
@@ -733,6 +803,181 @@ outputs:
       - layer: Edge.Cuts
       sheet: Back documentation
     keep_temporal_files: true
+- name: basic_pdf
+  comment: Individual layers in PDF format
+  type: pdf
+  dir: Individual_Layers/PDF
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
+- name: basic_ps
+  comment: Individual layers in PS format
+  type: ps
+  dir: Individual_Layers/PS
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
+- name: basic_svg
+  comment: Individual layers in SVG format
+  type: svg
+  dir: Individual_Layers/SVG
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
+- name: basic_vrml
+  comment: PCB in VRML format
+  type: vrml
+  dir: 3D
+
+# Stencil
+- name: basic_stencil_3d
+  comment: 3D self-registering stencil
+  type: stencil_3d
+  dir: Assembly
+- name: basic_stencil_for_jig
+  comment: Steel stencil for alignment jig
+  type: stencil_for_jig
+  dir: Assembly
+  options:
+    jigwidth: 100
+    jigheight: 100
+
+# 3D export
+- name: basic_step
+  comment: 3D model in STEP format
+  type: step
+  dir: 3D
+
+# 2D render
 - name: basic_pcbdraw_svg_jlcpcb_green_enig_top
   comment: PCB 2D render in SVG format, using jlcpcb-green-enig style
   type: pcbdraw
@@ -796,143 +1041,8 @@ outputs:
   options:
     style: set-red-hasl
     format: jpg
-- name: basic_pdf
-  comment: Individual layers in PDF format
-  type: pdf
-  dir: Individual_Layers/PDF
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_pdf_sch_print
-  comment: Schematic in PDF format
-  type: pdf_sch_print
-  dir: Schematic
-- name: basic_position_ASCII
-  comment: Components position for Pick & Place
-  type: position
-  dir: Position
-  options:
-    format: ASCII
-    only_smd: false
-    separate_files_for_front_and_back: false
-- name: basic_position_CSV
-  comment: Components position for Pick & Place
-  type: position
-  dir: Position
-  options:
-    format: CSV
-    only_smd: false
-    separate_files_for_front_and_back: false
-- name: basic_ps
-  comment: Individual layers in PS format
-  type: ps
-  dir: Individual_Layers/PS
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_ps_sch_print
-  comment: Schematic in PS format
-  type: ps_sch_print
-  dir: Schematic
-- name: basic_qr_lib_example
-  comment: QR code symbol and footprint example
-  type: qr_lib
-  dir: QR_libs
-  options:
-    qrs:
-    - correction_level: medium
-      name: QR_data
-      pcb_negative: true
-    - correction_level: medium
-      name: QR_kibot
-      text: https://github.com/INTI-CMNB/KiBot/
-    use_sch_dir: false
+
+# 3D render
 - name: basic_render_3d_top
   comment: 3D view from top
   type: render_3d
@@ -949,92 +1059,20 @@ outputs:
     ray_tracing: true
     rotate_x: 3
     rotate_z: -2
-- name: report_simple
-  comment: Simple design report
-  type: report
-  output_id: _simple
-  options:
-    template: simple_ASCII
-    do_convert: true
-- name: report_full
-  comment: Full design report
-  type: report
-  options:
-    template: full_SVG
-    do_convert: true
-- name: basic_stencil_3d
-  comment: 3D self-registering stencil
-  type: stencil_3d
-  dir: Assembly
-- name: basic_stencil_for_jig
-  comment: Steel stencil for alignment jig
-  type: stencil_for_jig
-  dir: Assembly
-  options:
-    jigwidth: 100
-    jigheight: 100
-- name: basic_step
-  comment: 3D model in STEP format
-  type: step
+- name: basic_blender_export
+  comment: 3D view from top/30 deg/bottom (Blender)
+  type: blender_export
   dir: 3D
-- name: basic_svg
-  comment: Individual layers in SVG format
-  type: svg
-  dir: Individual_Layers/SVG
-  layers:
-  - layer: F.Cu
-    suffix: F_Cu
-    description: Front copper
-  - layer: B.Cu
-    suffix: B_Cu
-    description: Back copper
-  - layer: F.Adhesive
-    suffix: F_Adhesive
-    description: Front adhesive
-  - layer: B.Adhesive
-    suffix: B_Adhesive
-    description: Back adhesive
-  - layer: F.Paste
-    suffix: F_Paste
-    description: Front solder paste
-  - layer: B.Paste
-    suffix: B_Paste
-    description: Back solder paste
-  - layer: F.Silkscreen
-    suffix: F_Silkscreen
-    description: Front silkscreen (artwork)
-  - layer: B.Silkscreen
-    suffix: B_Silkscreen
-    description: Back silkscreen (artwork)
-  - layer: F.Mask
-    suffix: F_Mask
-    description: Front soldermask (negative)
-  - layer: B.Mask
-    suffix: B_Mask
-    description: Back soldermask (negative)
-  - layer: Edge.Cuts
-    suffix: Edge_Cuts
-    description: Board shape
-  - layer: F.Courtyard
-    suffix: F_Courtyard
-    description: Front courtyard area
-  - layer: B.Courtyard
-    suffix: B_Courtyard
-    description: Back courtyard area
-  - layer: F.Fab
-    suffix: F_Fab
-    description: Front documentation
-  - layer: B.Fab
-    suffix: B_Fab
-    description: Back documentation
-- name: basic_svg_sch_print
-  comment: Schematic in SVG format
-  type: svg_sch_print
-  dir: Schematic
-- name: basic_vrml
-  comment: PCB in VRML format
-  type: vrml
-  dir: 3D
+  options:
+    pcb3d: _PCB2Blender_2_1
+    outputs:
+    - type: render
+    - type: blender
+    point_of_view:
+    - view: top
+    - rotate_x: 30
+      rotate_z: -20
+      file_id: _30deg
 
 ...
 definitions:
