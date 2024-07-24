@@ -6,9 +6,14 @@
 	(paper "USLetter")
 	(title_block
 		(title "Generic Pan Tilt Motor PCB: IO")
-		(date "2024-07-10")
+		(date "${KIBOT_GIT_DATE} ${KITBOT_RUN_DATE}")
+		(rev "${KIBOT_GIT_DESCRIBE}")
 		(company "Responsive Environments, MIT Media Lab")
 		(comment 1 "Perry Naseck")
+		(comment 2 "https://github.com/mitmedialab/generic-pan-tilt-pcb/")
+		(comment 3 "Licensed under CERN-OHL-P v2 or later")
+		(comment 4 "© MIT Media Lab 2024")
+		(comment 5 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2 or later. You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1366,7 +1371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03690cf7-ce7b-49ee-bc6c-b41903a52914")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 102.87 81.28 0)
 			(effects
 				(font
@@ -1416,7 +1421,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1432,7 +1437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e6a71d9-896d-4ec0-95a9-c1f8666bb63e")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 105.41 88.8999 0)
 			(effects
 				(font
@@ -1450,7 +1455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 103.886 90.424 90)
 			(effects
 				(font
@@ -1486,7 +1491,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1539,6 +1544,33 @@
 			)
 		)
 		(property "Description" "8-bit I/O expander, SPI, interrupts, SOIC-18"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "MCP23S08T-E/SOCT-ND"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MCP23S08T-E/SO"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "579-MCP23S08T-E/SO"
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -1620,7 +1652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "661979f0-a57f-402c-bc33-dbc20e8966c2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -1670,7 +1702,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1704,7 +1736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.0452 87.63 0)
 			(effects
 				(font
@@ -1756,7 +1788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "827881b6-254c-4407-9819-607a6b7f2023")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 153.67 129.54 0)
 			(effects
 				(font
@@ -1806,7 +1838,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1822,7 +1854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2999cf6-bb0d-40bc-abd4-f1fa2ac9c676")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 132.08 95.25 0)
 			(effects
 				(font
@@ -1872,7 +1904,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1888,7 +1920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d22a8c1a-04ca-4819-a919-eddb088490da")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 115.57 88.8999 0)
 			(effects
 				(font
@@ -1906,7 +1938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.046 90.424 90)
 			(effects
 				(font
@@ -1942,7 +1974,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)

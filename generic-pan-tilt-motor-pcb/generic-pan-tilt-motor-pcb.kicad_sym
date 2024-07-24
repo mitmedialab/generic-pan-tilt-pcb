@@ -2228,6 +2228,24 @@
 				)
 			)
 			(pin power_in line
+				(at -1.27 -40.64 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 1.27 -40.64 90)
 				(length 5.08)
 				(name "AGND"
@@ -2328,24 +2346,6 @@
 					)
 				)
 				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -40.64 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2992,6 +2992,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -1.27 -40.64 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
 				(at 13.97 -12.7 180)
 				(length 5.08) hide
@@ -3093,24 +3111,6 @@
 					)
 				)
 				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -40.64 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
