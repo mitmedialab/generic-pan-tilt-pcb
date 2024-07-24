@@ -6,7 +6,7 @@
 		(thickness 1)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "Generic Pan Tilt PCB")
 		(date "${KIBOT_GIT_DATE} ${KITBOT_RUN_DATE}")
