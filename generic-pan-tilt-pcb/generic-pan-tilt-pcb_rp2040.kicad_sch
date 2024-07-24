@@ -5907,7 +5907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56162193-bb03-4ead-9b03-1506139645dd")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 59.69 125.73 90)
 			(effects
 				(font
@@ -5959,7 +5959,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6723,7 +6723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87da2e92-7dba-448a-982c-eef3c6173b39")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 64.77 69.8499 0)
 			(effects
 				(font
@@ -6777,7 +6777,7 @@
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/55ec4a5b-72e0-465a-b2bf-185865323fab"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
