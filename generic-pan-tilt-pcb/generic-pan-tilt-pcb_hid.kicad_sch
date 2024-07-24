@@ -6,14 +6,13 @@
 	(paper "USLetter")
 	(title_block
 		(title "Generic Pan Tilt PCB: HID")
-		(date "2024-07-10")
+		(date "${KIBOT_GIT_DATE} ${KITBOT_RUN_DATE}")
 		(company "Responsive Environments, MIT Media Lab")
 		(comment 1 "Perry Naseck")
 		(comment 2 "https://github.com/mitmedialab/generic-pan-tilt-pcb/")
 		(comment 3 "Licensed under CERN-OHL-P v2 or later")
 		(comment 4 "© MIT Media Lab 2024")
-		(comment 5 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2")
-		(comment 6 "You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions")
+		(comment 5 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2 or later. You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions")
 	)
 	(lib_symbols
 		(symbol "Device:C"
