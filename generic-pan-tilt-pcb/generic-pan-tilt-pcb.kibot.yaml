@@ -182,24 +182,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
   options:
     old: KIBOT_LAST-1
     old_type: git
@@ -231,24 +255,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_dxf_sch_print
   comment: Schematic in DXF format
   type: dxf_sch_print
@@ -277,24 +325,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_hpgl
   comment: Individual layers in HPGL format
   type: hpgl
@@ -303,24 +375,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_hpgl_sch_print
   comment: Schematic in HPGL format
   type: hpgl_sch_print
@@ -374,24 +470,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
   options:
     max_commits: 4
 - name: basic_navigate_results
@@ -427,13 +547,29 @@ outputs:
       - layer: Edge.Cuts
       sheet: Front copper
     - layers:
+      - layer: B.Cu
+      - layer: B.Mask
+        color: '#14332440'
+      - layer: B.Paste
+      - layer: B.Silkscreen
+      - layer: Edge.Cuts
+      sheet: Back copper
+    - layers:
       - layer: F.Courtyard
       - layer: Edge.Cuts
       sheet: Front courtyard area
     - layers:
+      - layer: B.Courtyard
+      - layer: Edge.Cuts
+      sheet: Back courtyard area
+    - layers:
       - layer: F.Fab
       - layer: Edge.Cuts
       sheet: Front documentation
+    - layers:
+      - layer: B.Fab
+      - layer: Edge.Cuts
+      sheet: Back documentation
     keep_temporal_files: true
 - name: basic_pcb_print_svg
   comment: PCB
@@ -451,13 +587,29 @@ outputs:
       - layer: Edge.Cuts
       sheet: Front copper
     - layers:
+      - layer: B.Cu
+      - layer: B.Mask
+        color: '#14332440'
+      - layer: B.Paste
+      - layer: B.Silkscreen
+      - layer: Edge.Cuts
+      sheet: Back copper
+    - layers:
       - layer: F.Courtyard
       - layer: Edge.Cuts
       sheet: Front courtyard area
     - layers:
+      - layer: B.Courtyard
+      - layer: Edge.Cuts
+      sheet: Back courtyard area
+    - layers:
       - layer: F.Fab
       - layer: Edge.Cuts
       sheet: Front documentation
+    - layers:
+      - layer: B.Fab
+      - layer: Edge.Cuts
+      sheet: Back documentation
     keep_temporal_files: true
     add_background: true
 - name: basic_pcb_print_png
@@ -476,13 +628,29 @@ outputs:
       - layer: Edge.Cuts
       sheet: Front copper
     - layers:
+      - layer: B.Cu
+      - layer: B.Mask
+        color: '#14332440'
+      - layer: B.Paste
+      - layer: B.Silkscreen
+      - layer: Edge.Cuts
+      sheet: Back copper
+    - layers:
       - layer: F.Courtyard
       - layer: Edge.Cuts
       sheet: Front courtyard area
     - layers:
+      - layer: B.Courtyard
+      - layer: Edge.Cuts
+      sheet: Back courtyard area
+    - layers:
       - layer: F.Fab
       - layer: Edge.Cuts
       sheet: Front documentation
+    - layers:
+      - layer: B.Fab
+      - layer: Edge.Cuts
+      sheet: Back documentation
     keep_temporal_files: true
     add_background: true
 - name: basic_pcb_print_eps
@@ -501,13 +669,29 @@ outputs:
       - layer: Edge.Cuts
       sheet: Front copper
     - layers:
+      - layer: B.Cu
+      - layer: B.Mask
+        color: '#14332440'
+      - layer: B.Paste
+      - layer: B.Silkscreen
+      - layer: Edge.Cuts
+      sheet: Back copper
+    - layers:
       - layer: F.Courtyard
       - layer: Edge.Cuts
       sheet: Front courtyard area
     - layers:
+      - layer: B.Courtyard
+      - layer: Edge.Cuts
+      sheet: Back courtyard area
+    - layers:
       - layer: F.Fab
       - layer: Edge.Cuts
       sheet: Front documentation
+    - layers:
+      - layer: B.Fab
+      - layer: Edge.Cuts
+      sheet: Back documentation
     keep_temporal_files: true
 - name: basic_pcb_print_ps
   comment: PCB
@@ -525,13 +709,29 @@ outputs:
       - layer: Edge.Cuts
       sheet: Front copper
     - layers:
+      - layer: B.Cu
+      - layer: B.Mask
+        color: '#14332440'
+      - layer: B.Paste
+      - layer: B.Silkscreen
+      - layer: Edge.Cuts
+      sheet: Back copper
+    - layers:
       - layer: F.Courtyard
       - layer: Edge.Cuts
       sheet: Front courtyard area
     - layers:
+      - layer: B.Courtyard
+      - layer: Edge.Cuts
+      sheet: Back courtyard area
+    - layers:
       - layer: F.Fab
       - layer: Edge.Cuts
       sheet: Front documentation
+    - layers:
+      - layer: B.Fab
+      - layer: Edge.Cuts
+      sheet: Back documentation
     keep_temporal_files: true
 - name: basic_pcbdraw_svg_jlcpcb_green_enig_top
   comment: PCB 2D render in SVG format, using jlcpcb-green-enig style
@@ -604,24 +804,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_pdf_sch_print
   comment: Schematic in PDF format
   type: pdf_sch_print
@@ -650,24 +874,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_ps_sch_print
   comment: Schematic in PS format
   type: ps_sch_print
@@ -737,24 +985,48 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Back copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive
+  - layer: B.Adhesive
+    suffix: B_Adhesive
+    description: Back adhesive
   - layer: F.Paste
     suffix: F_Paste
     description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
   - layer: F.Silkscreen
     suffix: F_Silkscreen
     description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Back silkscreen (artwork)
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Back soldermask (negative)
   - layer: Edge.Cuts
     suffix: Edge_Cuts
     description: Board shape
   - layer: F.Courtyard
     suffix: F_Courtyard
     description: Front courtyard area
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Back courtyard area
   - layer: F.Fab
     suffix: F_Fab
     description: Front documentation
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Back documentation
 - name: basic_svg_sch_print
   comment: Schematic in SVG format
   type: svg_sch_print
