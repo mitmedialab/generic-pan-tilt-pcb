@@ -32,9 +32,11 @@ import:
 preflight:
   drc:
     dont_stop: true
+    warnings_as_errors: true
     format: HTML,RPT,JSON,CSV
   erc:
     dont_stop: true
+    warnings_as_errors: true
     format: HTML,RPT,JSON,CSV
   set_text_variables:
     # The revision will be the short git hash
@@ -51,7 +53,7 @@ preflight:
     # We use `${date}` for the time field in the worksheet (frame)
     - name: 'KITBOT_RUN_DATE'
       command: |
-        date --iso-8601=minutes
+        date --iso-8601
       before: 'Compile: '
 
 outputs:
