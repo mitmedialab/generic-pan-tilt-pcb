@@ -24,7 +24,7 @@ jobs:
   Fabrication:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: '0'
     # This is a KiCad 5 example, KiCad 6 uses v2_k6
@@ -44,7 +44,7 @@ jobs:
         board: 'generic-pan-tilt-motor-pcb/generic-pan-tilt-motor-pcb.kicad_pcb'
     - name: Retrieve results
       if: ${{ always() }}
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Fabrication_generic-pan-tilt-motor-pcb
         path: |
