@@ -4,7 +4,6 @@ kibot:
   version: 1
 
 global:
-  drc_exclusions_workaround: true
   # This will undo the `set_text_variables` when we run it locally
   restore_project: true
 
