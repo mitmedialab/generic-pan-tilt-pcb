@@ -7,11 +7,6 @@ global:
   drc_exclusions_workaround: true
   # This will undo the `set_text_variables` when we run it locally
   restore_project: true
-  filters:
-    - number: 1007
-    - number: 1015
-    - number: 58
-    - number: 107
 
 import:
 - file: Elecrow
