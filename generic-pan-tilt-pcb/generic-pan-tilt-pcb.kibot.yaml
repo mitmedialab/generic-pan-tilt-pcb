@@ -43,8 +43,6 @@ preflight:
     dont_stop: true
     format: HTML,RPT,JSON,CSV
   set_text_variables:
-    KIBOT_COMMIT_DATE: `git log -1 --format='%as' -- "$KIBOT_PCB_NAME"`
-  set_text_variables:
     # The revision will be the short git hash
     # We use ${git_hash} for the REV field in the worksheet (frame)
     - name: 'KIBOT_GIT_DESCRIBE'
