@@ -48,18 +48,18 @@ preflight:
     - name: 'KIBOT_GIT_DESCRIBE'
       command: |
         git describe --abbrev=7 --dirty --always --tags
-      before: 'Git:'
+      before: 'Git: '
     - name: 'KIBOT_GIT_DATE'
       command: |
         git log -1 --format='%as' -- "$KIBOT_SCH_NAME"
-      before: 'Git commit:'
+      before: 'Git commit: '
     # Coherent date and time for the schematic and PCB
     # This will be the time stamp of the files generation, not the commit times
     # We use `${date}` for the time field in the worksheet (frame)
     - name: 'KITBOT_RUN_DATE'
       command: |
         date --iso-8601=minutes
-      before: 'Compiled:'
+      before: 'Compiled: '
 
 outputs:
 - name: basic_blender_export
