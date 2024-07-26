@@ -1371,7 +1371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03690cf7-ce7b-49ee-bc6c-b41903a52914")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR041"
 			(at 102.87 81.28 0)
 			(effects
 				(font
@@ -1421,7 +1421,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR037")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1652,7 +1652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "661979f0-a57f-402c-bc33-dbc20e8966c2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR042"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1718,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8068ac5b-f892-4d2a-93e3-9b03f5bc3fab")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 135.89 82.5499 0)
 			(effects
 				(font
@@ -1727,7 +1727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF 10V"
+		(property "Value" "0.1µF 16V"
 			(at 135.89 85.0899 0)
 			(effects
 				(font
@@ -1772,7 +1772,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1788,7 +1788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "827881b6-254c-4407-9819-607a6b7f2023")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 153.67 129.54 0)
 			(effects
 				(font
@@ -1838,7 +1838,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1854,7 +1854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2999cf6-bb0d-40bc-abd4-f1fa2ac9c676")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 132.08 95.25 0)
 			(effects
 				(font
@@ -1904,7 +1904,7 @@
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/361af0e8-1628-4730-84e0-1b78e32fda52"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)

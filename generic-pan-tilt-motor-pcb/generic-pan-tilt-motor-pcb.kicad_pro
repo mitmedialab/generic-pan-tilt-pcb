@@ -576,52 +576,20 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "medium_power",
-        "pattern": "*/+3V3_BST"
-      },
-      {
-        "netclass": "medium_power",
-        "pattern": "*/+3V3_UNFILTERED"
-      },
-      {
         "netclass": "Default",
         "pattern": "GND"
       },
       {
-        "netclass": "medium_power",
-        "pattern": "*/+3V3_ISO_UNFILTERED"
-      },
-      {
-        "netclass": "medium_power",
-        "pattern": "*/*RS485_GND"
-      },
-      {
-        "netclass": "medium_power",
-        "pattern": "*/+3V3_ISO"
-      },
-      {
         "netclass": "low_power",
-        "pattern": "*RS485_*A*"
+        "pattern": "*VDD1V8*"
       },
       {
-        "netclass": "low_power",
-        "pattern": "*RS485_*B*"
+        "netclass": "high_power",
+        "pattern": "*OUT*"
       },
       {
-        "netclass": "USB",
-        "pattern": "*USB_D*"
-      },
-      {
-        "netclass": "low_power",
-        "pattern": "*USB_UNTERMINATED*"
-      },
-      {
-        "netclass": "low_power",
-        "pattern": "+1V1"
-      },
-      {
-        "netclass": "medium_power",
-        "pattern": "VBUS"
+        "netclass": "high_power",
+        "pattern": "*BRAKE*"
       }
     ]
   },
