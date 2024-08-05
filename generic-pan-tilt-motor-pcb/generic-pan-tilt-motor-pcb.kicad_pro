@@ -584,12 +584,16 @@
         "pattern": "*VDD1V8*"
       },
       {
-        "netclass": "high_power",
+        "netclass": "medium_power",
         "pattern": "*OUT*"
       },
       {
         "netclass": "high_power",
         "pattern": "*BRAKE*"
+      },
+      {
+        "netclass": "low_power",
+        "pattern": "*VCP*"
       }
     ]
   },
