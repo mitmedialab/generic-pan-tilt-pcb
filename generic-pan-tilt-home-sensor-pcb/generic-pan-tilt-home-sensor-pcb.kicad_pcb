@@ -1686,15 +1686,15 @@
 			(roundrect_rratio 0.15625)
 			(uuid "0448785d-f8a3-4b0a-97ab-e126bf318299")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical.wrl"
+		(model "./3D/B4B-PH-SM4-TB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -5.975 5.275 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
