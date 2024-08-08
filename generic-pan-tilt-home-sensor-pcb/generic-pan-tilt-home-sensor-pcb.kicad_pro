@@ -59,8 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|112500000|87565785|11d68aba-a3c9-42dd-8365-a83c667d11b1|dcc64b9c-279e-484c-8d70-22273574c58a",
-        "unresolved_variable|105000000|90250000|dcc64b9c-279e-484c-8d70-22273574c58a|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|112500000|87815785|11d68aba-a3c9-42dd-8365-a83c667d11b1|dcc64b9c-279e-484c-8d70-22273574c58a",
+        "unresolved_variable|105000000|90500000|dcc64b9c-279e-484c-8d70-22273574c58a|00000000-0000-0000-0000-000000000000",
         "unresolved_variable|182400000|199000000||",
         "unresolved_variable|245400000|199000000||"
       ],
