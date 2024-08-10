@@ -69,7 +69,7 @@ preflight:
         git describe --abbrev=7 --dirty --always --tags
     - name: 'KIBOT_GIT_DATE'
       command: |
-        git log -1 --format='%as' -- "$KIBOT_SCH_NAME"
+        git log -1 --format='%as'
       before: 'Commit: '
     # Coherent date and time for the schematic and PCB
     # This will be the time stamp of the files generation, not the commit times
