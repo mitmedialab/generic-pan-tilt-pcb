@@ -2383,76 +2383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ed86381-45b6-4ceb-9e5a-8aa8247e5c48")
-		(property "Reference" "C25"
-			(at 171.45 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1µF 10V"
-			(at 171.45 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 168.6052 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df17aaad-9da7-4f56-bab8-c29008dfe282")
-		)
-		(pin "1"
-			(uuid "8cf01024-a059-43cc-911a-ccc046bd4e83")
-		)
-		(instances
-			(project "generic-pan-tilt-pcb"
-				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 121.92 25.4 0)
 		(unit 1)
@@ -2520,16 +2450,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 77.47 0)
+		(at 167.64 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53c510be-ec88-45b4-bad3-ec3dae6f2c4d")
-		(property "Reference" "C24"
-			(at 125.73 76.1999 0)
+		(uuid "491983e9-4c3c-4ed5-b5ce-491b3df3f854")
+		(property "Reference" "C25"
+			(at 171.45 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,8 +2466,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF 10V"
-			(at 125.73 78.7399 0)
+		(property "Value" "0.1µF"
+			(at 171.45 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,8 +2475,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 122.8852 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 168.6052 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 77.47 0)
+			(at 167.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2494,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 77.47 0)
+			(at 167.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,16 +2502,106 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0e13fb9f-be3a-4c67-ac8a-494f5e5a0a6f")
+		(property "Voltage" "16V"
+			(at 171.45 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0603"
+			(at 171.45 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 171.45 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 171.45 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "manf#" "CL10B104KO8NNNC"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL10B104KO8NNNC"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1005-1-ND"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "82AC9325"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C66501"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "8ac90381-2112-439e-bdb5-58d84260e571")
+			(uuid "6421324e-822d-4c51-b72e-96144cdaf0c0")
+		)
+		(pin "2"
+			(uuid "38474438-c45d-48cc-aad9-09eecba01526")
 		)
 		(instances
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2655,6 +2674,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 121.92 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7abf5610-7772-4ead-9232-5de21ccd0c62")
+		(property "Reference" "C24"
+			(at 125.73 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 125.73 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 122.8852 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 125.73 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0603"
+			(at 125.73 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 125.73 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 125.73 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "manf#" "CL10B104KO8NNNC"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL10B104KO8NNNC"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1005-1-ND"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "82AC9325"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C66501"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6cca528-a9b1-4868-9062-d181fb15300f")
+		)
+		(pin "2"
+			(uuid "8b0471db-8d98-4881-8510-9dcfe142b038")
+		)
+		(instances
+			(project "generic-pan-tilt-pcb"
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "generic-pan-tilt-pcb:ISO1450DW")
 		(at 148.59 110.49 0)
 		(unit 1)
@@ -2662,10 +2840,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8accd6bf-5814-40d0-a3c4-74714eca11a2")
 		(property "Reference" "U4"
-			(at 167.64 101.6314 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2850,7 @@
 			)
 		)
 		(property "Value" "ISO1450DW"
-			(at 167.64 104.1714 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,6 +3059,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C6535309"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "33a2c056-f210-4e33-b223-7ccb1d756d9d")
 		)
@@ -2905,13 +3091,162 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 186.69 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93cb829e-27e3-4b81-b847-bb4a433cc734")
+		(property "Reference" "C26"
+			(at 190.5 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 190.5 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 187.6552 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case Code" "1210"
+			(at 190.5 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 190.5 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 190.5 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "1276-1807-1-ND"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C39232"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL32B106KAJNNNE"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL32B106KAJNNNE"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 190.5 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "newark#" "82AC9529"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c080bcb1-415b-474d-ac92-00bebf0b5377")
+		)
+		(pin "1"
+			(uuid "d9ed3664-e22d-4e76-ac82-4d77168e40f0")
+		)
+		(instances
+			(project "generic-pan-tilt-pcb"
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 201.93 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a075b3b6-3646-44ba-9868-cef0f6b0fe84")
 		(property "Reference" "C27"
 			(at 205.74 35.5599 0)
@@ -2922,7 +3257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7μF 10V"
+		(property "Value" "4.7μF"
 			(at 205.74 38.0999 0)
 			(effects
 				(font
@@ -2931,7 +3266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 202.8952 40.64 0)
 			(effects
 				(font
@@ -2958,6 +3293,78 @@
 				(hide yes)
 			)
 		)
+		(property "Case Code" "1210"
+			(at 205.74 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 205.74 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 205.74 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 205.74 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "1276-3343-1-ND"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2976071"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL32B475KBUYNWE"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL32B475KBUYNWE"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ba2f699-0ea9-41b5-aba7-ccb667e1db00")
 		)
@@ -2968,6 +3375,156 @@
 			(project "generic-pan-tilt-pcb"
 				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4514efc-70bb-4fb8-b601-3fd2624018e6")
+		(property "Reference" "C23"
+			(at 125.73 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 125.73 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 122.8852 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case Code" "1210"
+			(at 125.73 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 125.73 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 125.73 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "1276-1807-1-ND"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C39232"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL32B106KAJNNNE"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL32B106KAJNNNE"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 125.73 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "newark#" "82AC9529"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71f6173a-f3db-47b8-9f34-b4d4d6d9c2ee")
+		)
+		(pin "1"
+			(uuid "394be386-e79b-4ee5-80b2-8e62831f50b3")
+		)
+		(instances
+			(project "generic-pan-tilt-pcb"
+				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3040,146 +3597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 186.69 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c52c58bd-a529-4612-9976-80f1944985d6")
-		(property "Reference" "C26"
-			(at 190.5 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF 10V"
-			(at 190.5 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 187.6552 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bccdca5a-9c51-4634-aa8b-32cafa048791")
-		)
-		(pin "1"
-			(uuid "d0b74558-6c1b-4003-b8f5-27321f86e36e")
-		)
-		(instances
-			(project "generic-pan-tilt-pcb"
-				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 121.92 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cccf6f1f-8db2-4d2d-96e9-4f575458f0f6")
-		(property "Reference" "C23"
-			(at 125.73 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF 10V"
-			(at 125.73 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 122.8852 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e04d89a1-b564-4b2a-8cde-88353f4982cb")
-		)
-		(pin "1"
-			(uuid "1cca69ce-73b0-40a7-b6c8-148d3cf732c8")
-		)
-		(instances
-			(project "generic-pan-tilt-pcb"
-				(path "/e3bbbe58-bf8f-42a8-8505-028de8235dc1/98335103-cef0-473f-a7b3-d62ebdf0389c"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 187.96 31.75 90)
 		(unit 1)
@@ -3196,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Value" "10µH 500mA 400MΩ"
+		(property "Value" "10µH"
 			(at 187.96 26.67 90)
 			(effects
 				(font
@@ -3258,6 +3675,15 @@
 			)
 		)
 		(property "newark#" "04AJ5966"
+			(at 187.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C492052"
 			(at 187.96 31.75 0)
 			(effects
 				(font
