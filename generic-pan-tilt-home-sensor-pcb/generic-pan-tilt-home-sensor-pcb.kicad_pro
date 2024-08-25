@@ -689,6 +689,12 @@
         },
         {
           "group_by": false,
+          "label": "manf#",
+          "name": "manf#",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
@@ -697,25 +703,25 @@
           "group_by": false,
           "label": "digikey#",
           "name": "digikey#",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "manf#",
-          "name": "manf#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "mouser#",
           "name": "mouser#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "newark#",
+          "name": "newark#",
+          "show": true
         }
       ],
       "filter_string": "",

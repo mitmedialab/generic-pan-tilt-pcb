@@ -5184,6 +5184,15 @@
 				(hide yes)
 			)
 		)
+		(property "newark#" "49AJ8739"
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "53"
 			(uuid "33478de0-b7d1-4c2a-ad44-a4d277f32697")
 		)
@@ -7308,6 +7317,15 @@
 			)
 		)
 		(property "mouser#" "815-ABM8-272-T3"
+			(at 41.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "86AK7198"
 			(at 41.91 127 0)
 			(effects
 				(font

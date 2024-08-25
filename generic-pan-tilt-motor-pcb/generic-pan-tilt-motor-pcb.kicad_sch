@@ -5005,76 +5005,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 257.81 142.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04b3d790-42e6-44c3-9991-3ad3ee2ce82e")
-		(property "Reference" "C3"
-			(at 254 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1µF 16V"
-			(at 254 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 256.8448 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f5d48e3-2199-473e-aa8b-f8480a5941e2")
-		)
-		(pin "1"
-			(uuid "ce073309-161c-49e2-a10d-b56676217b5c")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 44.45 58.42 180)
 		(unit 1)
@@ -5291,7 +5221,7 @@
 				)
 			)
 		)
-		(property "Value" "S4B-PH-SM4-TB"
+		(property "Value" "B4B-PH-SM4-TB"
 			(at 158.75 124.46 0)
 			(effects
 				(font
@@ -5326,7 +5256,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S4B-PH-SM4-TB"
+		(property "manf#" "B4B-PH-SM4-TB"
 			(at 158.75 133.35 0)
 			(effects
 				(font
@@ -5335,7 +5265,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "455-S4B-PH-SM4-TBCT-ND"
+		(property "digikey#" "455-B4B-PH-SM4-TBCT-ND"
 			(at 158.75 133.35 0)
 			(effects
 				(font
@@ -5345,6 +5275,15 @@
 			)
 		)
 		(property "mouser#" ""
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "37K9959"
 			(at 158.75 133.35 0)
 			(effects
 				(font
@@ -5427,7 +5366,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "277-1755-ND"
+		(property "digikey#" "277-1755-ND|277-1709-ND"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -5436,7 +5375,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "1945151"
+		(property "manf#" "1945151|1984044"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -5445,7 +5384,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "651-1945151"
+		(property "mouser#" "651-1945151|651-1984044"
+			(at 224.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "69R9974|"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -5756,76 +5704,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 191.77 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b8ea532-e689-4a50-a9b6-4e3134559a07")
-		(property "Reference" "C1"
-			(at 187.96 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1µF 16V"
-			(at 187.96 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 190.8048 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 191.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5813988e-6338-49c2-8abe-80e412c4a24f")
-		)
-		(pin "1"
-			(uuid "0d66703c-bf90-466c-8f0e-80cac8dc53a2")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 257.81 125.73 0)
 		(mirror y)
@@ -6025,76 +5903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 191.77 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "508da642-2751-41e9-860f-340323636444")
-		(property "Reference" "C2"
-			(at 187.96 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1µF 16V"
-			(at 187.96 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 190.8048 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 191.77 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b59f462b-b07e-47cb-8868-e77e404d2470")
-		)
-		(pin "1"
-			(uuid "ebe26836-f49c-4bee-8966-da445823621d")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 52.07 58.42 0)
 		(unit 1)
@@ -6155,6 +5963,129 @@
 			(project ""
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52946841-2c02-406b-a041-240587b14b74")
+		(property "Reference" "C1"
+			(at 195.58 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1µF"
+			(at 195.58 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 192.7352 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 195.58 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0603"
+			(at 195.58 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 195.58 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 195.58 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "manf#" "CL10B104KO8NFNC"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-­CL10B104KO8NFNC"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d1d3c5-8348-448c-8480-e5a7b8de1245")
+		)
+		(pin "2"
+			(uuid "9a1a65b9-ed19-4257-a475-abaae6d54753")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6373,6 +6304,15 @@
 			)
 		)
 		(property "mouser#" "755-SML-E12V8WT86"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "18AC7719"
 			(at 205.74 53.34 0)
 			(effects
 				(font
@@ -6753,6 +6693,15 @@
 				(hide yes)
 			)
 		)
+		(property "newark#" "18AC7715"
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "664df0d8-26fd-4945-8327-534522958d30")
 		)
@@ -6763,6 +6712,129 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73ea540f-75d6-447b-8e56-2f09528e2e39")
+		(property "Reference" "C2"
+			(at 195.58 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1µF"
+			(at 195.58 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 192.7352 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 195.58 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0603"
+			(at 195.58 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 195.58 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 195.58 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "manf#" "CL10B104KO8NFNC"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-­CL10B104KO8NFNC"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ffca0d1-e7da-4b87-aa4d-8cfc26c05bf3")
+		)
+		(pin "2"
+			(uuid "93ed8f70-1b1b-47ac-bde5-a4ce258c1cbc")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7587,6 +7659,15 @@
 				(hide yes)
 			)
 		)
+		(property "newark#" "18AC7714"
+			(at 232.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b10168a0-e9cc-4d14-a175-39acdd7c5777")
 		)
@@ -7854,7 +7935,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "1945096"
+		(property "manf#" "1945096|1984015"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -7863,7 +7944,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "277-1749-ND"
+		(property "digikey#" "277-1749-ND|277-1706-ND"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -7872,7 +7953,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "651-1945096"
+		(property "mouser#" "651-1945096|651-1984015"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "69R9968|70R0001"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -7948,7 +8038,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "1945119"
+		(property "manf#" "1945119|1984031"
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -7957,7 +8047,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "277-1751-ND"
+		(property "digikey#" "277-1751-ND|277-1708-ND"
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -7966,7 +8056,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "651-1945119"
+		(property "mouser#" "651-1945119|651-1984031"
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "69R9970|70R0007"
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -8335,6 +8434,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 257.81 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcd1738e-b7e1-41b8-96ab-a2cf2523a9b6")
+		(property "Reference" "C3"
+			(at 261.62 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1µF"
+			(at 261.62 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 258.7752 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 261.62 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0603"
+			(at 261.62 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 261.62 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 261.62 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "manf#" "CL10B104KO8NFNC"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-­CL10B104KO8NFNC"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d16f3397-e2ba-4a96-8f3a-44a201e752ac")
+		)
+		(pin "2"
+			(uuid "92ed3123-bc1b-4e4e-bcbf-7e8a6eed0afd")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 203.2 165.1 0)
 		(unit 1)
@@ -8482,7 +8704,7 @@
 				)
 			)
 		)
-		(property "Value" "S4B-PH-SM4-TB"
+		(property "Value" "B4B-PH-SM4-TB"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -8517,7 +8739,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S4B-PH-SM4-TB"
+		(property "manf#" "B4B-PH-SM4-TB"
 			(at 158.75 102.87 0)
 			(effects
 				(font
@@ -8526,7 +8748,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "455-S4B-PH-SM4-TBCT-ND"
+		(property "digikey#" "455-B4B-PH-SM4-TBCT-ND"
 			(at 158.75 102.87 0)
 			(effects
 				(font
@@ -8536,6 +8758,15 @@
 			)
 		)
 		(property "mouser#" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "37K9959"
 			(at 158.75 102.87 0)
 			(effects
 				(font
@@ -8638,6 +8869,15 @@
 			)
 		)
 		(property "mouser#" "576-TPSMB30A"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "67AH3299"
 			(at 58.42 83.82 0)
 			(effects
 				(font
@@ -8878,7 +9118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B12B-PH-SM4-TBT"
+		(property "Value" "B12B-PH-SM4-TB"
 			(at 62.23 41.9099 0)
 			(effects
 				(font
@@ -8914,7 +9154,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S12B-PH-SM4-TB"
+		(property "manf#" "B12B-PH-SM4-TB"
 			(at 59.69 39.37 0)
 			(effects
 				(font
@@ -8923,7 +9163,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "455-S12B-PH-SM4-TBCT-ND"
+		(property "digikey#" "455-B12B-PH-SM4-TBCT-ND"
 			(at 59.69 39.37 0)
 			(effects
 				(font
@@ -8933,6 +9173,15 @@
 			)
 		)
 		(property "mouser#" ""
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "90R9305"
 			(at 59.69 39.37 0)
 			(effects
 				(font

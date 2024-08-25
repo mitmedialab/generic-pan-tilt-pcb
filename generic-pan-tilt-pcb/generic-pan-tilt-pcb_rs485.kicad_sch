@@ -2873,6 +2873,15 @@
 				(hide yes)
 			)
 		)
+		(property "newark#" "44X7239"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "33a2c056-f210-4e33-b223-7ccb1d756d9d")
 		)
@@ -3240,6 +3249,15 @@
 			)
 		)
 		(property "mouser#" "580-82103C"
+			(at 187.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "04AJ5966"
 			(at 187.96 31.75 0)
 			(effects
 				(font

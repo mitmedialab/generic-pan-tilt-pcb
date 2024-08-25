@@ -1447,6 +1447,15 @@
 				(hide yes)
 			)
 		)
+		(property "newark#" "94W8271"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "bdf01a1f-1599-402e-9562-438a8f6a208b")
 			(alternate "SCL")

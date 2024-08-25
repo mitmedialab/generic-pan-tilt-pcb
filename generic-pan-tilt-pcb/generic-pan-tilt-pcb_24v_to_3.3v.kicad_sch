@@ -1768,6 +1768,15 @@
 				(hide yes)
 			)
 		)
+		(property "newark#" "81AH8747"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "29d08350-5f26-4666-8b1b-e2316618ab8c")
 		)
@@ -2000,6 +2009,15 @@
 			)
 		)
 		(property "mouser#" "810-VLS6045EX-6R8M"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "55Y4252"
 			(at 148.59 87.63 0)
 			(effects
 				(font

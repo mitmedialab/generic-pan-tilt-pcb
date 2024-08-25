@@ -4491,6 +4491,15 @@
 				(hide yes)
 			)
 		)
+		(property "newark#" "74M3009"
+			(at 204.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "642d0029-f583-461b-ad86-e925c885a127")
 		)
@@ -4657,6 +4666,15 @@
 			)
 		)
 		(property "mouser#" "579-MCP23017T-E/SO"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "41AH8461"
 			(at 110.49 81.28 0)
 			(effects
 				(font
