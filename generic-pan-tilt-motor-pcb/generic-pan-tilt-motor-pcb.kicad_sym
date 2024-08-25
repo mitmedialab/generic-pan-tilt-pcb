@@ -81,7 +81,7 @@
 			)
 		)
 		(symbol "MCP23S08-xML_1_1"
-			(pin output line
+			(pin tri_state line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "SO"
@@ -721,7 +721,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "SO"
@@ -1127,7 +1127,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "SO"
@@ -1569,7 +1569,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "SO"
@@ -2137,7 +2137,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -19.05 5.08 0)
 				(length 5.08)
 				(name "SDO/NAO"
@@ -2614,7 +2614,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -19.05 5.08 0)
 				(length 5.08)
 				(name "SDO/NAO"

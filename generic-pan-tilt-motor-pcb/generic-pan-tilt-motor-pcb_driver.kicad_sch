@@ -1360,7 +1360,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -19.05 5.08 0)
 					(length 5.08)
 					(name "SDO/NAO"
@@ -2077,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 80.01) (xy 57.15 80.01)
+			(xy 69.85 82.55) (xy 57.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 134.62) (xy 62.23 137.16)
+			(xy 62.23 132.08) (xy 62.23 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 77.47) (xy 59.69 77.47)
+			(xy 57.15 80.01) (xy 59.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 148.59) (xy 62.23 144.78)
+			(xy 62.23 148.59) (xy 62.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 100.33 87.63)
+			(xy 57.15 90.17) (xy 100.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 77.47) (xy 59.69 76.2)
+			(xy 59.69 80.01) (xy 59.69 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 69.85 80.01)
+			(xy 69.85 76.2) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3037,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 85.09) (xy 90.17 85.09)
+			(xy 57.15 87.63) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 76.2) (xy 80.01 82.55)
+			(xy 80.01 76.2) (xy 80.01 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3137,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 80.01 82.55)
+			(xy 57.15 85.09) (xy 80.01 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3147,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 100.33 76.2)
+			(xy 100.33 90.17) (xy 100.33 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3177,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 90.17 76.2)
+			(xy 90.17 87.63) (xy 90.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3269,7 @@
 	)
 	(hierarchical_label "~{DRV_ENN}"
 		(shape input)
-		(at 57.15 77.47 180)
+		(at 57.15 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3329,7 +3329,7 @@
 	)
 	(hierarchical_label "REF_R"
 		(shape input)
-		(at 57.15 82.55 180)
+		(at 57.15 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3377,7 +3377,7 @@
 	)
 	(hierarchical_label "DIAG0"
 		(shape output)
-		(at 57.15 85.09 180)
+		(at 57.15 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3521,7 +3521,7 @@
 	)
 	(hierarchical_label "REF_L"
 		(shape input)
-		(at 57.15 80.01 180)
+		(at 57.15 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3533,7 +3533,7 @@
 	)
 	(hierarchical_label "DIAG1"
 		(shape output)
-		(at 57.15 87.63 180)
+		(at 57.15 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3643,6 +3643,33 @@
 			)
 		)
 		(property "mouser#" "80­-C0603C102K1GEC"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "399-17253-1-ND"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "67AC7933"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 251.46 105.41 0)
 			(effects
 				(font
@@ -3766,6 +3793,33 @@
 			)
 		)
 		(property "mouser#" "187-­CL10B104KB8NNNC"
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1000-1-ND"
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C1591"
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 135.89 40.64 0)
 			(effects
 				(font
@@ -4012,6 +4066,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C2927415"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f5fc9ae-3bfb-4a86-b809-9bf6cec5afb4")
 		)
@@ -4160,120 +4232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 49.53 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2379eb12-02b9-452e-a22f-98359e3662f8")
-		(property "Reference" "C4"
-			(at 53.34 38.7349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150uF"
-			(at 53.34 41.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 49.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/293/e_uwz-2943344.pdf"
-			(at 49.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 49.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 53.34 43.8149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "manf#" "UWZ1H151MCL1GS"
-			(at 53.34 46.3549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "digikey#" "493-9939-1-ND"
-			(at 49.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "647-UWZ1H151MCL1"
-			(at 49.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "newark#" "58R8961"
-			(at 49.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cec74aab-9250-4a42-87e3-e17906ead8d9")
-		)
-		(pin "2"
-			(uuid "d8d98225-d626-48f3-b348-848288e112bc")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 201.93 113.03 0)
 		(unit 1)
@@ -4334,6 +4292,165 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2af321ee-f5e9-44bd-b374-3698429cc583")
+		(property "Reference" "C11"
+			(at 193.04 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 193.04 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 190.1952 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 193.04 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0603"
+			(at 193.04 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 193.04 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 193.04 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "manf#" "CL10B104KO8NNNC"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL10B104KO8NNNC"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1005-1-ND"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "82AC9325"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C66501"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac62640c-b1c7-46b8-b277-8a0e146bb554")
+		)
+		(pin "2"
+			(uuid "e53d5872-0f48-4397-8e6e-91a07f686fef")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4472,75 +4589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 69.85 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37ea9fd0-1791-466e-bc97-5213268e586a")
-		(property "Reference" "R6"
-			(at 72.39 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7kΩ"
-			(at 72.39 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 70.866 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 69.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9bb1349-2694-4179-959f-8a8d6a5cbf55")
-		)
-		(pin "2"
-			(uuid "8e498d28-7b6d-4708-9800-b6dcf337f793")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 218.44 105.41 0)
 		(unit 1)
@@ -4640,6 +4688,33 @@
 			)
 		)
 		(property "mouser#" "80­-C0603C102K1GEC"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "399-17253-1-ND"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "67AC7933"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 218.44 105.41 0)
 			(effects
 				(font
@@ -4771,6 +4846,33 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" "399-17253-1-ND"
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "67AC7933"
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ffcd6d9-a883-4e1f-aec4-2d0a23542795")
 		)
@@ -4894,6 +4996,33 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" "399-17253-1-ND"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "67AC7933"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f65f671-69c5-49c2-b3d2-13deafdbdda6")
 		)
@@ -5003,6 +5132,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C155242"
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b3aafde-1019-48c3-bdab-4a243a07119e")
 		)
@@ -5016,76 +5163,6 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51d0a972-16fb-4ec4-9d74-daa04113d14c")
-		(property "Reference" "R9"
-			(at 102.87 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7kΩ"
-			(at 102.87 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 101.346 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8914ad06-798d-49b3-ab6d-27ee9d1f793c")
-		)
-		(pin "2"
-			(uuid "fcd8d359-7ed8-45d3-a121-f7b47b499fff")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5151,6 +5228,147 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6708aaf5-526a-4a34-b987-52ad4afd6eea")
+		(property "Reference" "R9"
+			(at 102.87 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 102.87 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.346 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 102.87 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 102.87 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 102.87 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "CR0402-FX-4701GLFCT-ND"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2076851"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0402-FX-4701GLF"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0402FX-4701GLF "
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "34AK1324"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01103172-3101-4090-9d4e-31b758c4056e")
+		)
+		(pin "2"
+			(uuid "28fb8eef-0190-489b-97ca-ef3177f29acd")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5396,6 +5614,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C5199872"
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40540e9f-40c7-4441-9d9b-a9baa2f3ff31")
 		)
@@ -5475,7 +5711,7 @@
 			)
 		)
 		(property "manf#" "UWZ1H151MCL1GS"
-			(at 114.3 46.3549 0)
+			(at 114.3 48.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,6 +5738,33 @@
 			)
 		)
 		(property "newark#" "58R8961"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 114.3 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "lcsc#" "C2164473"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 110.49 40.64 0)
 			(effects
 				(font
@@ -5615,7 +5878,7 @@
 				(justify left)
 			)
 		)
-		(property "manf#" "CL10B223KB8NNND"
+		(property "manf#" "CL10B223KB8NNNC"
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -5624,7 +5887,43 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-CL10B223KB8NNND"
+		(property "mouser#" "187-CL10B223KB8NNNC"
+			(at 198.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1104-1-ND"
+			(at 198.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C21122"
+			(at 198.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "82AC9345"
+			(at 198.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -5650,7 +5949,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 62.23 140.97 0)
+		(at 62.23 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5658,7 +5957,7 @@
 		(dnp no)
 		(uuid "869910ae-389e-4df0-984f-495fb0fac4e5")
 		(property "Reference" "R5"
-			(at 64.77 139.6999 0)
+			(at 64.77 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5966,7 @@
 			)
 		)
 		(property "Value" "15.8kΩ"
-			(at 64.77 142.2399 0)
+			(at 64.77 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5975,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 63.246 141.224 90)
+			(at 63.246 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 140.97 0)
+			(at 62.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5993,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 62.23 140.97 0)
+			(at 62.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,12 +6002,75 @@
 			)
 		)
 		(property "Notes" "Eval board used 24kΩ for +5V rail"
-			(at 60.452 140.97 0)
+			(at 60.452 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 64.77 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 64.77 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 64.77 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "118-CR0402-FX-1582GLFCT-ND"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0402-FX-1582GLF"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0402FX1582GLF"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "40Y9659"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5800,10 +6162,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a3320c2-78ae-4a11-aacb-a6c93f34fca5")
 		(property "Reference" "R10"
-			(at 144.78 68.58 90)
+			(at 144.78 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +6172,7 @@
 			)
 		)
 		(property "Value" "12kΩ"
-			(at 144.78 71.12 90)
+			(at 144.78 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,6 +6206,75 @@
 				(hide yes)
 			)
 		)
+		(property "Power" "1/16W"
+			(at 144.78 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 144.78 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 144.78 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "CR0402-FX-1202GLFCT-ND"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2085429"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0402-FX-1202GLF"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0402FX-1202GLF "
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "33AK7333"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07aff3e6-9772-4cd9-a6d5-09065aef2468")
 		)
@@ -5855,6 +6285,147 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 90.17 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c96b5f7-a29b-411c-b1b9-2163d85ccfdb")
+		(property "Reference" "R8"
+			(at 92.71 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 92.71 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 91.186 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 92.71 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 92.71 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 92.71 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "CR0402-FX-4701GLFCT-ND"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2076851"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0402-FX-4701GLF"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0402FX-4701GLF "
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "34AK1324"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd9cdcdc-5ac5-4823-8ffd-e9cb6051b048")
+		)
+		(pin "2"
+			(uuid "e8fe42bb-1c54-47c0-ab81-a3a15afe0416")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5960,6 +6531,42 @@
 			)
 		)
 		(property "mouser#" "81-­GRM188Z71C225KE3D"
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "490-GRM188Z71C225KE43DCT-ND"
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C576485"
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "92AH5122"
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 196.85 139.7 0)
 			(effects
 				(font
@@ -6091,6 +6698,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C5199872"
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c35693dc-cdb8-4374-bb5f-0af6f3dcf83e")
 		)
@@ -6214,6 +6839,33 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" "1276-1000-1-ND"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C1591"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12405440-622c-433f-b3ce-efc81ffee9ec")
 		)
@@ -6224,75 +6876,6 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 80.01 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98bff595-6f1e-48c8-beee-e3a1aa81f46c")
-		(property "Reference" "R7"
-			(at 82.55 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7kΩ"
-			(at 82.55 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.026 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83aaf74a-6497-4273-8480-cb58b963ac12")
-		)
-		(pin "2"
-			(uuid "3ccbaa2b-9eee-4925-89da-f95ab8a3e319")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6406,6 +6989,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C5199872"
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c86f2d22-c919-4009-9268-530defd8798d")
 		)
@@ -6476,7 +7077,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TMC5240ATJ+"
+		(property "manf#" "TMC5240ATJ+T"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -6485,7 +7086,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "505-TMC5240ATJ+-ND"
+		(property "digikey#" "175-TMC5240ATJ+TCT-ND"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -6504,6 +7105,24 @@
 			)
 		)
 		(property "newark#" "69AK0101"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" " C7494373"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -6753,84 +7372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 59.69 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a58d319e-020a-4edb-83d4-c7a55e508f4e")
-		(property "Reference" "R4"
-			(at 62.23 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7kΩ"
-			(at 62.23 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.706 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Pull-up for motor off before IO init"
-			(at 56.896 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "9eb905a8-74c6-4e0f-b02d-22dc2b17bd0f")
-		)
-		(pin "2"
-			(uuid "f272d49f-bce6-44bf-afa3-f83695513f73")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 78.74 118.11 0)
 		(unit 1)
@@ -6898,7 +7439,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 62.23 134.62 0)
+		(at 62.23 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6906,7 +7447,7 @@
 		(dnp no)
 		(uuid "aba2d69b-dbf0-4b09-aaf7-448db4ed3873")
 		(property "Reference" "#PWR023"
-			(at 62.23 138.43 0)
+			(at 62.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +7456,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 62.23 129.54 0)
+			(at 62.23 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +7464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 134.62 0)
+			(at 62.23 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +7473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 134.62 0)
+			(at 62.23 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +7482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 134.62 0)
+			(at 62.23 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,6 +7497,438 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac70df8d-dad1-419f-86c6-5e69fcf8325d")
+		(property "Reference" "R7"
+			(at 82.55 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 82.55 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 81.026 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 82.55 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 82.55 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 82.55 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "CR0402-FX-4701GLFCT-ND"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2076851"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0402-FX-4701GLF"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0402FX-4701GLF "
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "34AK1324"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "874713a2-533c-47e4-9f75-889825ca1d2d")
+		)
+		(pin "2"
+			(uuid "74ca23af-3733-426b-a8ae-90e184ec6f96")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 59.69 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b03a57a8-cd4b-47c1-9011-5242fc1f36a9")
+		(property "Reference" "R4"
+			(at 62.23 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 62.23 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 60.706 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 62.23 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 62.23 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 62.23 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "CR0402-FX-4701GLFCT-ND"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2076851"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0402-FX-4701GLF"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0402FX-4701GLF "
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "34AK1324"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Pull-up for motor off before IO init"
+			(at 57.15 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "72780088-b283-41a4-9199-51875f962ee5")
+		)
+		(pin "2"
+			(uuid "3f612e93-e94d-4581-9f94-be109807c61b")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 49.53 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb60a701-2746-465c-99d3-65768ef4c983")
+		(property "Reference" "C4"
+			(at 53.34 38.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150uF"
+			(at 53.34 41.2749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/293/e_uwz-2943344.pdf"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 53.34 43.8149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "manf#" "UWZ1H151MCL1GS"
+			(at 53.34 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "493-9939-1-ND"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "647-UWZ1H151MCL1"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "58R8961"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 53.34 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "lcsc#" "C2164473"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc907137-c2f5-4664-beab-8a52622d5ee5")
+		)
+		(pin "2"
+			(uuid "214ccd9c-88f4-4b00-9d78-cae3ca0050ee")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7022,129 +7995,6 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 189.23 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca9fd5fe-9972-4b04-8cca-e22f619a6fc9")
-		(property "Reference" "C11"
-			(at 193.04 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1µF"
-			(at 193.04 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 190.1952 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 193.04 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Case Code" "0603"
-			(at 193.04 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 193.04 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 193.04 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "manf#" "CL10B104KO8NFNC"
-			(at 189.23 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "187-CL10B104KO8NFNC"
-			(at 189.23 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ea61bbb-ba68-4a57-8378-d0a814fe6b4c")
-		)
-		(pin "2"
-			(uuid "38ae68dd-1a4a-43d3-9860-d4feabfe7cad")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7482,16 +8332,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 90.17 72.39 0)
+		(at 69.85 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1bd98b9-0b46-4bbc-9358-71f17d31dcd0")
-		(property "Reference" "R8"
-			(at 92.71 71.1199 0)
+		(uuid "f7bb432c-85d2-4c7a-9a0c-864d3414e5f8")
+		(property "Reference" "R6"
+			(at 72.39 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +8349,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 92.71 73.6599 0)
+			(at 72.39 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +8358,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.186 72.644 90)
+			(at 70.866 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +8367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 72.39 0)
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +8376,79 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 90.17 72.39 0)
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 72.39 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 72.39 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 72.39 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "digikey#" "CR0402-FX-4701GLFCT-ND"
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2076851"
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0402-FX-4701GLF"
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0402FX-4701GLF "
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "34AK1324"
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,15 +8457,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "590ce4ef-5f21-4297-89e1-c530850bf510")
+			(uuid "eec464d6-3929-4be9-a438-798b6e221213")
 		)
 		(pin "2"
-			(uuid "3bfba8f2-537b-4d15-89c6-e122d368b212")
+			(uuid "2e8166c0-420c-4ba7-a05d-80335c33889f")
 		)
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e/47e81b81-8d6d-4022-a5d3-7b1c5e293c64"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)

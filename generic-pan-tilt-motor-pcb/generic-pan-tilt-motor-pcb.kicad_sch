@@ -2847,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 36.83) (xy 54.61 36.83)
+			(xy 50.8 36.83) (xy 54.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 45.72) (xy 205.74 49.53)
+			(xy 205.74 44.45) (xy 205.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3267,7 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 33.02) (xy 232.41 38.1)
+			(xy 232.41 33.02) (xy 232.41 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 45.72) (xy 232.41 49.53)
+			(xy 232.41 44.45) (xy 232.41 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3347,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 33.02) (xy 179.07 38.1)
+			(xy 179.07 33.02) (xy 179.07 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3727,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 45.72) (xy 179.07 49.53)
+			(xy 179.07 44.45) (xy 179.07 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3957,7 +3957,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 205.74 38.1)
+			(xy 205.74 33.02) (xy 205.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4037,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 39.37) (xy 54.61 39.37)
+			(xy 50.8 39.37) (xy 54.61 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4318,7 +4318,7 @@
 		(uuid "56604339-e334-42bd-a7be-cd4dcc723a11")
 	)
 	(label "I2C_SCL"
-		(at 46.99 39.37 180)
+		(at 50.8 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4582,7 +4582,7 @@
 		(uuid "9bd4b852-5fa9-4128-9f01-aa1b87028cf8")
 	)
 	(label "I2C_SDA"
-		(at 46.99 36.83 180)
+		(at 50.8 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4681,7 +4681,7 @@
 		(uuid "c1562235-1a86-499e-954b-1ca33dcacd71")
 	)
 	(label "SPI_PICO"
-		(at 96.52 83.82 180)
+		(at 96.52 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4802,7 +4802,7 @@
 		(uuid "ec301798-ce97-486e-8af0-845d1427f631")
 	)
 	(label "SPI_POCI"
-		(at 96.52 86.36 180)
+		(at 96.52 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4922,6 +4922,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 139.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
@@ -4978,6 +4987,15 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 58.42 171.45 0)
 			(effects
 				(font
@@ -5137,183 +5155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fa89453-e168-49a8-a59d-b7c6ea1181f9")
-		(property "Reference" "TP3"
-			(at 116.84 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebff9d21-f9b7-4b9c-ab59-7bf5e9a1bec0")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 158.75 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fbcea4d-e5d3-4122-986c-99b789db63e6")
-		(property "Reference" "J3"
-			(at 158.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B4B-PH-SM4-TB"
-			(at 158.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
-			(at 158.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 158.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "B4B-PH-SM4-TB"
-			(at 158.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey#" "455-B4B-PH-SM4-TBCT-ND"
-			(at 158.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 158.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "newark#" "37K9959"
-			(at 158.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6327901d-bf37-49a2-a58f-cbfe9d3d44c5")
-		)
-		(pin "1"
-			(uuid "d79818d3-1889-406b-ab2e-e59f39301695")
-		)
-		(pin "4"
-			(uuid "8dbab866-c0cb-4378-8f0d-be753dc0bcce")
-		)
-		(pin "3"
-			(uuid "18694c1a-ff39-4b96-a4c1-c1d0a301cdb3")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 224.79 138.43 180)
 		(unit 1)
@@ -5366,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "277-1755-ND|277-1709-ND"
+		(property "digikey#" "277-1755-ND|277-1712-ND"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -5375,7 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "1945151|1984044"
+		(property "manf#" "1945151|1984073"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -5384,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "651-1945151|651-1984044"
+		(property "mouser#" "651-1945151|651-1984073"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -5393,7 +5234,34 @@
 				(hide yes)
 			)
 		)
-		(property "newark#" "69R9974|"
+		(property "newark#" "69R9974|70R0016"
+			(at 224.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "goldphoenix#" "139-1945151-CT"
+			(at 224.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "|C21692588"
+			(at 224.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -5439,8 +5307,8 @@
 		(lib_id "Connector:TestPoint")
 		(at 111.76 107.95 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5482,6 +5350,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -5640,8 +5517,8 @@
 		(lib_id "Connector:TestPoint")
 		(at 111.76 101.6 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5691,6 +5568,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f7c2668-2013-435d-ad8e-da47d1ed02e0")
 		)
@@ -5698,6 +5584,82 @@
 			(project ""
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 139.7 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e42f312-b31c-4ec2-972e-b9bb184cdf01")
+		(property "Reference" "TP7"
+			(at 116.84 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b874da79-1af1-414a-8482-845d3f9e3682")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -6058,7 +6020,7 @@
 				(justify left)
 			)
 		)
-		(property "manf#" "CL10B104KO8NFNC"
+		(property "manf#" "CL10B104KO8NNNC"
 			(at 191.77 102.87 0)
 			(effects
 				(font
@@ -6067,7 +6029,43 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NFNC"
+		(property "mouser#" "187-­CL10B104KO8NNNC"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1005-1-ND"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C66501"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "82AC9325"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 191.77 102.87 0)
 			(effects
 				(font
@@ -6146,10 +6144,95 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 133.35 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5844fe57-871c-4470-89af-b10477380e69")
+		(property "Reference" "TP6"
+			(at 116.84 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f32bc13-1fd9-40c6-9e83-75bae7d1428c")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6321,6 +6404,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C510294"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "603d6262-e82a-4269-9e8e-d3953d699996")
 		)
@@ -6337,17 +6438,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 133.35 270)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 158.75 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64f41bc5-848c-40e0-8b8d-37baf6883347")
-		(property "Reference" "TP6"
-			(at 116.84 132.0799 90)
+		(uuid "655dd440-497a-496b-8c01-db07f9243a8a")
+		(property "Reference" "J3"
+			(at 156.21 133.3501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,8 +6455,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 116.84 134.6199 90)
+		(property "Value" "B4B-PH-SM4-TB"
+			(at 156.21 130.8101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,8 +6464,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 138.43 0)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,8 +6473,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 111.76 138.43 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,8 +6482,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 111.76 133.35 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,47 +6491,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e2acc95e-eea5-41a4-a5f7-dfaf0014c0b5")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 179.07 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ba037c6-e07c-4569-b35c-72b0699ca41b")
-		(property "Reference" "R1"
-			(at 181.61 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "55Ω"
-			(at 181.61 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 180.086 42.164 90)
+		(property "manf#" "B4B-PH-SM4-TB"
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,8 +6500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 179.07 41.91 0)
+		(property "digikey#" "455-B4B-PH-SM4-TBCT-ND"
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,8 +6509,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 179.07 41.91 0)
+		(property "mouser#" ""
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "37K9959"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "goldphoenix#" "122-B4B-PH-SM4-TB(LF)(SN)-CT"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C160354"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,82 +6555,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ac4265f-c3a7-48d6-9288-d7d3e6018f41")
+			(uuid "39b6673b-8760-406a-afc3-4a3dc8d342b8")
 		)
 		(pin "1"
-			(uuid "8ddf456f-2f5c-4001-a309-8dc75541d075")
+			(uuid "f92d9b2a-1488-4fd1-9763-4381ee9ae06a")
+		)
+		(pin "4"
+			(uuid "a1c26cbc-f4c7-49d3-b07c-cd57e899f437")
+		)
+		(pin "3"
+			(uuid "c5405133-b4b5-4ee6-9cb2-56698dcf7a12")
 		)
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c743578-1058-49ce-afbf-5b2d26e64d6a")
-		(property "Reference" "TP4"
-			(at 116.84 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9af235a8-0f7e-4928-abcc-70b588f8640f")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "TP4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6586,6 +6622,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 241.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -6702,6 +6747,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C2837819"
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "664df0d8-26fd-4945-8327-534522958d30")
 		)
@@ -6712,6 +6775,144 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 158.75 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7201e6eb-baa0-4ed3-b2ca-55245a2c7e15")
+		(property "Reference" "J2"
+			(at 156.21 102.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B4B-PH-SM4-TB"
+			(at 156.21 100.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "B4B-PH-SM4-TB"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-B4B-PH-SM4-TBCT-ND"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "37K9959"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "goldphoenix#" "122-B4B-PH-SM4-TB(LF)(SN)-CT"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C160354"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3c164d6-5043-48df-8c1c-703fd42cb2b2")
+		)
+		(pin "1"
+			(uuid "5738d1e6-1d99-44f6-8f72-35478cb5102f")
+		)
+		(pin "4"
+			(uuid "60752f1b-1862-4899-8782-fc6c38390101")
+		)
+		(pin "3"
+			(uuid "36e20a0f-d80c-4236-9e02-d9bc35928614")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6807,7 +7008,7 @@
 				(justify left)
 			)
 		)
-		(property "manf#" "CL10B104KO8NFNC"
+		(property "manf#" "CL10B104KO8NNNC"
 			(at 191.77 133.35 0)
 			(effects
 				(font
@@ -6816,7 +7017,43 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NFNC"
+		(property "mouser#" "187-­CL10B104KO8NNNC"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1005-1-ND"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C66501"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "82AC9325"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 191.77 133.35 0)
 			(effects
 				(font
@@ -6895,6 +7132,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 58.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d033321a-5c60-4a9f-aae6-fc1bad89da68")
 		)
@@ -6908,6 +7154,138 @@
 			(project ""
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 179.07 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c447bab-a67b-4942-b3eb-fb90e3d5436c")
+		(property "Reference" "R1"
+			(at 181.61 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56Ω"
+			(at 181.61 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.086 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "541-10417-1-ND"
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C4063621"
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCS040256R0FKED"
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-RCS040256R0FKED"
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/5W"
+			(at 181.61 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 181.61 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 181.61 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f2efb484-f570-4468-95ce-584e62444f61")
+		)
+		(pin "1"
+			(uuid "e714ebcd-3003-49b1-9db2-4d7bedbf99b1")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7099,6 +7477,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
@@ -7168,6 +7555,82 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 127 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3904ffa-0589-43c3-9336-efaa9a8694a1")
+		(property "Reference" "TP5"
+			(at 116.84 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4c8ee78-b9a8-42ba-bc7b-c038f637d2f2")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7361,6 +7824,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 228.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
@@ -7438,7 +7910,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 205.74 41.91 0)
+		(at 205.74 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7446,7 +7918,7 @@
 		(dnp no)
 		(uuid "b4d2f92a-39ce-44ce-9988-84deeeb27bb0")
 		(property "Reference" "R2"
-			(at 208.28 40.6399 0)
+			(at 208.28 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,8 +7926,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "55Ω"
-			(at 208.28 43.1799 0)
+		(property "Value" "56Ω"
+			(at 208.28 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +7936,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 206.756 42.164 90)
+			(at 206.756 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +7945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 41.91 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,12 +7954,75 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 205.74 41.91 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey#" "541-10417-1-ND"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C4063621"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCS040256R0FKED"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-RCS040256R0FKED"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/5W"
+			(at 208.28 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 208.28 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "0402"
+			(at 208.28 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7552,6 +8087,15 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
+			(at 259.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 259.08 165.1 0)
 			(effects
 				(font
@@ -7668,6 +8212,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C5336488"
+			(at 232.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 232.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b10168a0-e9cc-4d14-a175-39acdd7c5777")
 		)
@@ -7678,6 +8240,82 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 114.3 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd690d6-5d26-40ea-8fa8-c740d485a1ed")
+		(property "Reference" "TP3"
+			(at 116.84 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8cb8d49-e96e-4b01-baac-85799a47dbc8")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7750,16 +8388,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 232.41 41.91 0)
+		(at 232.41 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdf45322-8ed5-4c94-b3bb-3449dd9f21e9")
 		(property "Reference" "R3"
-			(at 234.95 40.6399 0)
+			(at 234.95 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,8 +8404,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2kΩ 1W"
-			(at 234.95 43.1799 0)
+		(property "Value" "1.2kΩ"
+			(at 234.95 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +8414,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 233.426 42.164 90)
+			(at 233.426 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +8423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 41.91 0)
+			(at 232.41 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,12 +8432,75 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 232.41 41.91 0)
+			(at 232.41 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey#" "RMCF2512FT1K20CT-ND"
+			(at 232.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C3943439"
+			(at 232.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RMCF2512FT1K20"
+			(at 232.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "708-RMCF2512FT1K20"
+			(at 232.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1W"
+			(at 234.95 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Case Code" "2512"
+			(at 234.95 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 234.95 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7813,6 +8513,82 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 120.65 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce7130bc-3d83-4506-a277-6da945d08c55")
+		(property "Reference" "TP4"
+			(at 116.84 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f7a5d8-0475-4d2d-84bc-1d17e1cdaa2b")
+		)
+		(instances
+			(project "generic-pan-tilt-motor-pcb"
+				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7865,6 +8641,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 139.7 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 139.7 196.85 0)
 			(effects
 				(font
@@ -7971,6 +8756,33 @@
 				(hide yes)
 			)
 		)
+		(property "goldphoenix#" "139-1945096-CT|139-1984015-CT"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C5266024|C3580047"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19efb001-c946-4ab3-913f-50f8f219f7df")
 		)
@@ -8066,6 +8878,33 @@
 			)
 		)
 		(property "newark#" "69R9970|70R0007"
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "goldphoenix#" "139-1945119-CT|139-1984031-CT"
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C5266029|C5443578"
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -8228,73 +9067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daf410f4-7a05-44ae-b8ab-150d094c6a3e")
-		(property "Reference" "TP7"
-			(at 116.84 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b8f3fab-a8a3-4790-a768-8b697696b774")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 58.42 149.86 270)
 		(unit 1)
@@ -8341,6 +9113,15 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 58.42 149.86 0)
 			(effects
 				(font
@@ -8523,7 +9304,7 @@
 				(justify left)
 			)
 		)
-		(property "manf#" "CL10B104KO8NFNC"
+		(property "manf#" "CL10B104KO8NNNC"
 			(at 257.81 142.24 0)
 			(effects
 				(font
@@ -8532,7 +9313,43 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NFNC"
+		(property "mouser#" "187-­CL10B104KO8NNNC"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1005-1-ND"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C66501"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "82AC9325"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 257.81 142.24 0)
 			(effects
 				(font
@@ -8611,6 +9428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 203.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
@@ -8681,116 +9507,6 @@
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 158.75 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb69cfc9-cd33-4399-bc95-1f8d42c2c7c7")
-		(property "Reference" "J2"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B4B-PH-SM4-TB"
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "B4B-PH-SM4-TB"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey#" "455-B4B-PH-SM4-TBCT-ND"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "newark#" "37K9959"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f85e7afd-b1b2-461b-bb42-bc20af7f350f")
-		)
-		(pin "1"
-			(uuid "770df492-d282-4d1f-98d2-6089b5be7ecb")
-		)
-		(pin "4"
-			(uuid "961bba6c-c7c0-49a7-8e0f-7f6392a2565b")
-		)
-		(pin "3"
-			(uuid "8dfc3b43-686e-4b93-92e9-7855569ed77b")
-		)
-		(instances
-			(project ""
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8886,6 +9602,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C428851"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9dd9d58c-c989-4f42-9cba-df602525a7f2")
 		)
@@ -8956,77 +9690,19 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 215.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "generic-pan-tilt-motor-pcb"
 				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
 					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f05bf827-9290-47a6-a4a2-3b0ad0762467")
-		(property "Reference" "TP5"
-			(at 116.84 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cd85704-428d-47f4-9c37-6065a22a14b7")
-		)
-		(instances
-			(project "generic-pan-tilt-motor-pcb"
-				(path "/bfc49584-1093-4a5f-ad88-bc47ac53d02e"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9182,6 +9858,24 @@
 			)
 		)
 		(property "newark#" "90R9305"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C545752"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 59.69 39.37 0)
 			(effects
 				(font
