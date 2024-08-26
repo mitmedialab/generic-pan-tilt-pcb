@@ -329,7 +329,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1118,7 +1118,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2315,7 +2315,7 @@
 				)
 			)
 		)
-		(property "lcsc#" " C7494373"
+		(property "lcsc#" "C7494373"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3968,19 +3968,6 @@
 				)
 			)
 		)
-		(property "Notes" "Eval board used 24kΩ for +5V rail"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d49a9ba2-7a23-4395-8f00-f06e63cf1dc5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Power" "1/16W"
 			(at 0 0 180)
 			(unlocked yes)
@@ -4065,6 +4052,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afa221c6-cb2d-4b9a-b7e1-4b1e48b551d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" "Eval board used 24kΩ for +5V rail"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "836edfa0-e313-4259-a479-3d7219f8ed74")
 			(effects
 				(font
 					(size 1 1)
@@ -10637,7 +10637,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10955,7 +10955,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11273,7 +11273,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15498,7 +15498,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16592,7 +16592,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-1202GLF "
+		(property "mouser#" "652-CR0402FX-1202GLF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17555,7 +17555,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21735,7 +21735,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

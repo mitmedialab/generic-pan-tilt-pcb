@@ -5341,7 +5341,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 100.33 72.39 0)
 			(effects
 				(font
@@ -6001,7 +6001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Eval board used 24kΩ for +5V rail"
+		(property "Note" "Eval board used 24kΩ for +5V rail"
 			(at 60.452 138.43 0)
 			(effects
 				(font
@@ -6257,7 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-1202GLF "
+		(property "mouser#" "652-CR0402FX-1202GLF"
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -6398,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -7113,7 +7113,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" " C7494373"
+		(property "lcsc#" "C7494373"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -7610,7 +7610,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -7751,7 +7751,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 59.69 72.39 0)
 			(effects
 				(font
@@ -8438,7 +8438,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 69.85 72.39 0)
 			(effects
 				(font

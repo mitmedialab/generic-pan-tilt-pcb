@@ -1998,7 +1998,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 72.39 73.66 0)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -2979,7 +2979,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0402FX-4701GLF "
+		(property "mouser#" "652-CR0402FX-4701GLF"
 			(at 92.71 111.76 0)
 			(effects
 				(font
