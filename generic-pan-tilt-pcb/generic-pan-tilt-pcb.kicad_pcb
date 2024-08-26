@@ -24695,7 +24695,7 @@
 		(path "/e2b5314f-806a-4f39-8c59-debbd2a2bba5/9bbec541-fef5-426f-a27f-7455d743a143")
 		(sheetname "generic-pan-tilt-pcb_dmx-expansion")
 		(sheetfile "generic-pan-tilt-pcb_dmx-expansion.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.33 -19.11)
 			(end -1.33 -19.11)
@@ -25672,7 +25672,7 @@
 		(path "/e2b5314f-806a-4f39-8c59-debbd2a2bba5/c7c927e4-fd47-45ae-a45b-0d9affc17f93")
 		(sheetname "generic-pan-tilt-pcb_dmx-expansion")
 		(sheetfile "generic-pan-tilt-pcb_dmx-expansion.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.33 1.33)
 			(end 0 1.33)
@@ -29928,7 +29928,7 @@
 		(path "/e2b5314f-806a-4f39-8c59-debbd2a2bba5/656bc434-0372-4cfe-ac31-699df090318c")
 		(sheetname "generic-pan-tilt-pcb_dmx-expansion")
 		(sheetfile "generic-pan-tilt-pcb_dmx-expansion.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.33 1.33)
 			(end 0 1.33)
