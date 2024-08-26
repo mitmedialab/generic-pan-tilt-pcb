@@ -27762,7 +27762,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "6.8µH 3.6A 36MΩ"
+		(property "Value" "6.8µH"
 			(at 0 -4 0)
 			(unlocked yes)
 			(layer "B.Fab")

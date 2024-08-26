@@ -2433,7 +2433,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8µH 3.6A 36MΩ"
+		(property "Value" "6.8µH"
 			(at 148.59 82.55 90)
 			(effects
 				(font
