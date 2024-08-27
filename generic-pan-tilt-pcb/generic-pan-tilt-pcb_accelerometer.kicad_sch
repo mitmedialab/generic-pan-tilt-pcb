@@ -1553,7 +1553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
+		(property "Footprint" "generic-pan-tilt-pcb:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y_LIS3DH"
 			(at 149.86 113.03 0)
 			(effects
 				(font
