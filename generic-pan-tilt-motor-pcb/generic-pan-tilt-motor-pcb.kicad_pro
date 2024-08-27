@@ -732,6 +732,48 @@
           "label": "newark#",
           "name": "newark#",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "goldphoenix#",
+          "name": "goldphoenix#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lcsc#",
+          "name": "lcsc#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Case Code",
+          "name": "Case Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
         }
       ],
       "filter_string": "",

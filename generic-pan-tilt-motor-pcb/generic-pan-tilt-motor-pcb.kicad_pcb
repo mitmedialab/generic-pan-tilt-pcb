@@ -4286,7 +4286,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4338,7 +4338,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL10B104KO8NNNC"
+		(property "manf#" "CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4351,7 +4351,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NNNC"
+		(property "mouser#" "187­-CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4364,38 +4364,12 @@
 				)
 			)
 		)
-		(property "digikey#" "1276-1005-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60b03372-e351-47b9-b4d5-30bbe2d37a57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "lcsc#" "C66501"
+		(property "lcsc#" "C5199872"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5514d13-a04a-4e47-9b68-fe38a19246d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "newark#" "82AC9325"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f352068-063d-48ed-972e-f1c34c0bba92")
 			(effects
 				(font
 					(size 1 1)
@@ -4630,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4682,7 +4656,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL10B104KO8NNNC"
+		(property "manf#" "CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4695,7 +4669,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NNNC"
+		(property "mouser#" "187­-CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4708,38 +4682,12 @@
 				)
 			)
 		)
-		(property "digikey#" "1276-1005-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05970c0b-c85a-47d8-8a2d-d7b5908df340")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "lcsc#" "C66501"
+		(property "lcsc#" "C5199872"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ce5a651-3cb6-4802-a57b-7fd604ddf105")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "newark#" "82AC9325"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96564825-7abe-4510-9b42-c93cdff9145b")
 			(effects
 				(font
 					(size 1 1)
@@ -11984,7 +11932,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12036,7 +11984,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL10B104KO8NNNC"
+		(property "manf#" "CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12049,7 +11997,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NNNC"
+		(property "mouser#" "187­-CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12062,38 +12010,12 @@
 				)
 			)
 		)
-		(property "digikey#" "1276-1005-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab7aa8c0-7be7-4891-936d-13b948eaa0d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "lcsc#" "C66501"
+		(property "lcsc#" "C5199872"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1cbddc92-4531-481f-a1c5-645d56b1bb1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "newark#" "82AC9325"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b9e5d1c-e33c-4549-b87b-cf3b405c110c")
 			(effects
 				(font
 					(size 1 1)

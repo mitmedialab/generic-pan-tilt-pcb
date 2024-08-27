@@ -5984,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 195.58 106.6799 0)
 			(effects
 				(font
@@ -6020,7 +6020,7 @@
 				(justify left)
 			)
 		)
-		(property "manf#" "CL10B104KO8NNNC"
+		(property "manf#" "CL10B105KB8NQNC"
 			(at 191.77 102.87 0)
 			(effects
 				(font
@@ -6029,7 +6029,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NNNC"
+		(property "mouser#" "187­-CL10B105KB8NQNC"
 			(at 191.77 102.87 0)
 			(effects
 				(font
@@ -6038,25 +6038,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "1276-1005-1-ND"
-			(at 191.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc#" "C66501"
-			(at 191.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "newark#" "82AC9325"
+		(property "lcsc#" "C5199872"
 			(at 191.77 102.87 0)
 			(effects
 				(font
@@ -6972,7 +6954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 195.58 137.1599 0)
 			(effects
 				(font
@@ -7008,7 +6990,7 @@
 				(justify left)
 			)
 		)
-		(property "manf#" "CL10B104KO8NNNC"
+		(property "manf#" "CL10B105KB8NQNC"
 			(at 191.77 133.35 0)
 			(effects
 				(font
@@ -7017,7 +6999,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NNNC"
+		(property "mouser#" "187­-CL10B105KB8NQNC"
 			(at 191.77 133.35 0)
 			(effects
 				(font
@@ -7026,25 +7008,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "1276-1005-1-ND"
-			(at 191.77 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc#" "C66501"
-			(at 191.77 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "newark#" "82AC9325"
+		(property "lcsc#" "C5199872"
 			(at 191.77 133.35 0)
 			(effects
 				(font
@@ -9268,7 +9232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 261.62 146.0499 0)
 			(effects
 				(font
@@ -9304,7 +9268,7 @@
 				(justify left)
 			)
 		)
-		(property "manf#" "CL10B104KO8NNNC"
+		(property "manf#" "CL10B105KB8NQNC"
 			(at 257.81 142.24 0)
 			(effects
 				(font
@@ -9313,7 +9277,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "187-­CL10B104KO8NNNC"
+		(property "mouser#" "187­-CL10B105KB8NQNC"
 			(at 257.81 142.24 0)
 			(effects
 				(font
@@ -9322,25 +9286,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey#" "1276-1005-1-ND"
-			(at 257.81 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc#" "C66501"
-			(at 257.81 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "newark#" "82AC9325"
+		(property "lcsc#" "C5199872"
 			(at 257.81 142.24 0)
 			(effects
 				(font
